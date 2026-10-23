@@ -1,0 +1,44 @@
+{
+  "number": 6,
+  "id": "finance",
+  "category": "Финансовый",
+  "query": "100 USD to RUB",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:21.111057+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input interpretation",
+      "primary": false,
+      "text": [
+        "convert $100 (US dollars) to Russian rubles"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Result",
+      "primary": true,
+      "text": [
+        "8475.17 ₽ (Russian rubles) (October 6, 2026)"
+      ]
+    },
+    {
+      "id": "History",
+      "title": "Exchange history for $100 (US dollars)",
+      "primary": false,
+      "text": [
+        "1-year minimum | 7084.76 ₽ (May 28, 2026 | 4 months ago)\n1-year maximum | 8729.72 ₽ (September 2, 2026 | 1 month ago)\n1-year average | 7876.12 ₽ (annualized volatility: 13%)"
+      ]
+    },
+    {
+      "id": "CurrencyConversions",
+      "title": "Additional currency conversions for $100 (US dollars)",
+      "primary": false,
+      "text": [
+        "EUR | €88.74 (euros)\nCNY | ￥670.46 (Chinese yuan)\nJPY | ¥15809 (Japanese yen)\nGBP | £75.32 (British pounds)\nCAD | C$142.50 (Canadian dollars)\nMXN | $1794.45 (Mexican pesos)\nGTQ | Q762.91 (Guatemala quetzales)\nCRC | ₡45725.83 (Costa Rican colones)\nHNL | L2682.77 (Honduran lempiras)\nJMD | J$15872.44 (Jamaican dollars)\nXAU | 0.02 oz (gold ounces)\nXAG | 1.63 oz (silver ounces)"
+      ]
+    }
+  ]
+}

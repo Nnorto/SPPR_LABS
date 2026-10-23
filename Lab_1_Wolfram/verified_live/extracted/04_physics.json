@@ -1,0 +1,36 @@
+{
+  "number": 4,
+  "id": "physics",
+  "category": "Физический",
+  "query": "kinetic energy of 5kg object at 10m/s",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:16.219506+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input information",
+      "primary": false,
+      "text": [
+        "kinetic energy | \nmass | 5 kg (kilograms)\nvelocity | 10 m/s (meters per second)"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Result",
+      "primary": true,
+      "text": [
+        "kinetic energy | 250 J (joules)\n= 0.06944 W h (watt hours)\n= 1.56 × 10^12 GeV (gigaelectronvolts)"
+      ]
+    },
+    {
+      "id": "Equation",
+      "title": "Equation",
+      "primary": false,
+      "text": [
+        "K = (m v^2)/2 | \nK | kinetic energy\nm | mass\nv | velocity\n(the energy of an object due to its motion)"
+      ]
+    }
+  ]
+}

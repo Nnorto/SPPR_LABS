@@ -1,0 +1,277 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 10,
+    "datatypes": "D",
+    "parsetiming": 0.227,
+    "parsetimedout": false,
+    "id": "JCz6+LxhILU=6:eJxTTMoPSmNkYGAoZgESHvk5KWlMIJ42kHBOzEkuzUksSQ1ILCpOTXDOzytJzStJgAsjWC4QTSAjAnJKiyE8VhAvvzy1qBhkfkUmM5BEyIRk5qYWZ4K5YGkICQBUsCGB",
+    "kernelId": "346",
+    "processId": 712201,
+    "version": "2.6",
+    "inputstring": "differentiate x^3 + 2x",
+    "sbsallowed": false,
+    "parentId": "da56b48b-c5cb-4ef8-8700-fa3210a8f9d1",
+    "requestId": "da56b48b-c5cb-4ef8-8700-fa3210a8f9d1",
+    "pods": [
+      {
+        "title": "Derivative",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "d/dx(x^3 + 2 x) = 3 x^2 + 2"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Derivative",
+        "id": "Input",
+        "position": 10,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Plots",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": ""
+          },
+          {
+            "title": "",
+            "plaintext": ""
+          }
+        ],
+        "numsubpods": 2,
+        "error": false,
+        "scanner": "Plotter",
+        "id": "Plot",
+        "position": 101,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Geometric figure",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "parabola"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Geometry",
+        "id": "GeometricFigure (ofBoundary)",
+        "position": 201,
+        "expressiontypes": {
+          "name": "Default"
+        },
+        "states": [
+          {
+            "name": "Properties",
+            "input": "GeometricFigure (ofBoundary)__Properties"
+          }
+        ]
+      },
+      {
+        "title": "Alternate form",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "1/3 (sqrt(6) - 3 i x) (sqrt(6) + 3 i x)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Simplification",
+        "id": "AlternateForm",
+        "position": 450.8666666666667,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Complex roots",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "x = -i sqrt(2/3)"
+          },
+          {
+            "title": "",
+            "plaintext": "x = i sqrt(2/3)"
+          }
+        ],
+        "numsubpods": 2,
+        "error": false,
+        "scanner": "Reduce",
+        "id": "ComplexSolution",
+        "position": 1331,
+        "primary": true,
+        "expressiontypes": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          }
+        ],
+        "states": [
+          {
+            "count": 3,
+            "value": "Cartesian form",
+            "delimiters": "",
+            "states": [
+              {
+                "name": "Cartesian form",
+                "input": "ComplexSolution__Cartesian form"
+              },
+              {
+                "name": "Trigonometric form",
+                "input": "ComplexSolution__Trigonometric form"
+              },
+              {
+                "name": "Exponential form",
+                "input": "ComplexSolution__Exponential form"
+              }
+            ]
+          },
+          {
+            "name": "Approximate forms",
+            "input": "ComplexSolution__Approximate forms"
+          }
+        ]
+      },
+      {
+        "title": "Roots in the complex plane",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": ""
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Reduce",
+        "id": "RootsInTheComplexPlane",
+        "position": 1336,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Polynomial discriminant",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "Δ = -24"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Expression",
+        "id": "PolynomialDiscriminant",
+        "position": 1350.1,
+        "expressiontypes": {
+          "name": "Default"
+        },
+        "states": [
+          {
+            "name": "Show class number",
+            "input": "PolynomialDiscriminant__Show class number"
+          }
+        ]
+      },
+      {
+        "title": "Properties as a real function",
+        "subpods": [
+          {
+            "title": "Domain",
+            "plaintext": "R (all real numbers)"
+          },
+          {
+            "title": "Range",
+            "plaintext": "{y element R : y>=2}"
+          },
+          {
+            "title": "Parity",
+            "plaintext": "even",
+            "infos": {
+              "text": "R is the set of real numbers",
+              "links": [
+                {
+                  "url": "http://reference.wolfram.com/language/ref/Reals.html",
+                  "text": "Documentation",
+                  "title": "Documentation"
+                },
+                {
+                  "url": "http://mathworld.wolfram.com/R.html",
+                  "text": "Definition",
+                  "title": "MathWorld"
+                }
+              ]
+            }
+          }
+        ],
+        "numsubpods": 3,
+        "error": false,
+        "scanner": "FunctionProperties",
+        "id": "PropertiesAsARealFunction",
+        "position": 1363,
+        "expressiontypes": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      },
+      {
+        "title": "Indefinite integral",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "integral(2 + 3 x^2) dx = x^3 + 2 x + constant"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Integral",
+        "id": "IndefiniteIntegral",
+        "position": 1810,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Global minimum",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "min{3 x^2 + 2} = 2 at x = 0"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "GlobalExtrema",
+        "id": "GlobalMinimum",
+        "position": 2010.01,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      }
+    ],
+    "timing": 0.69,
+    "timedout": "",
+    "timedoutpods": ""
+  }
+}

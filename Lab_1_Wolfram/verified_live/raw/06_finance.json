@@ -1,0 +1,155 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 4,
+    "datatypes": "Financial",
+    "parsetiming": 0.503,
+    "parsetimedout": false,
+    "id": "Pmv3E9AfqBc=6:eJydkMEKwjAMhqf4Ih68CO4dpB48iXbs3s51WMgSWVJhb2/bgXisXn5Iky/56LYjPayqquJNjDNBP6xTdYihLNwDWHEtemGTUtE4Ejbz2BGwUYQvN0luL1j9jV3txC4NiUMxn2dzhOfD3oJF8TL7PiKLwa4Ezsf2JXZtcyKAuOZftfwlF0L3q15doqcDs7eoQweO34fEhJ4=",
+    "kernelId": "400",
+    "processId": 718679,
+    "version": "2.6",
+    "inputstring": "100 USD to RUB",
+    "sbsallowed": false,
+    "sources": [
+      {
+        "url": "https://www6b3.wolframalpha.com/sources/FinancialDataSourceInformationNotes.html",
+        "text": "Financial data"
+      }
+    ],
+    "parentId": "a12cf794-ad83-4c1c-a815-2ec17c9251b9",
+    "requestId": "a12cf794-ad83-4c1c-a815-2ec17c9251b9",
+    "pods": [
+      {
+        "title": "Input interpretation",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "convert $100 (US dollars) to Russian rubles"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Identity",
+        "id": "Input",
+        "position": 1,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Result",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "8475.17 ₽ (Russian rubles) (October 6, 2026)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Money",
+        "id": "Result",
+        "position": 100,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        },
+        "states": [
+          {
+            "name": "More accuracy",
+            "input": "Result__More accuracy"
+          }
+        ]
+      },
+      {
+        "title": "Exchange history for $100 (US dollars)",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "FinancialData"
+            ],
+            "datasources": [
+              "FinnhubStockAPI",
+              "NasdaqDataLink"
+            ],
+            "plaintext": "\n1-year minimum | 7084.76 ₽ (May 28, 2026 | 4 months ago)\n1-year maximum | 8729.72 ₽ (September 2, 2026 | 1 month ago)\n1-year average | 7876.12 ₽ (annualized volatility: 13%)",
+            "infos": {
+              "units": {
+                "short": "1.00 ₽",
+                "long": "Russian rubles"
+              }
+            }
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Money",
+        "id": "History",
+        "position": 200,
+        "expressiontypes": {
+          "name": "Grid"
+        },
+        "states": [
+          {
+            "count": 4,
+            "value": "Last year",
+            "delimiters": "",
+            "states": [
+              {
+                "name": "Last month",
+                "input": "History__Last month"
+              },
+              {
+                "name": "Last year",
+                "input": "History__Last year"
+              },
+              {
+                "name": "Last 5 years",
+                "input": "History__Last 5 years"
+              },
+              {
+                "name": "Last 10 years",
+                "input": "History__Last 10 years"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Additional currency conversions for $100 (US dollars)",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "FinancialData"
+            ],
+            "datasources": [
+              "FinnhubStockAPI",
+              "NasdaqDataLink"
+            ],
+            "plaintext": "EUR | €88.74 (euros)\nCNY | ￥670.46 (Chinese yuan)\nJPY | ¥15809 (Japanese yen)\nGBP | £75.32 (British pounds)\nCAD | C$142.50 (Canadian dollars)\nMXN | $1794.45 (Mexican pesos)\nGTQ | Q762.91 (Guatemala quetzales)\nCRC | ₡45725.83 (Costa Rican colones)\nHNL | L2682.77 (Honduran lempiras)\nJMD | J$15872.44 (Jamaican dollars)\nXAU | 0.02 oz (gold ounces)\nXAG | 1.63 oz (silver ounces)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Money",
+        "id": "CurrencyConversions",
+        "position": 500,
+        "expressiontypes": {
+          "name": "Default"
+        },
+        "states": [
+          {
+            "name": "World currencies",
+            "input": "CurrencyConversions__World currencies"
+          }
+        ]
+      }
+    ],
+    "timing": 1.428,
+    "timedout": "",
+    "timedoutpods": ""
+  }
+}

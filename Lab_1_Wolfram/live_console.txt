@@ -1,0 +1,203 @@
+РЕЖИМ: LIVE / WOLFRAM API
+01. integrate x^2 sin^3 x dx
+    [ok]
+    Indefinite integral: integral x^2 sin^3(x) dx = 1/108 (-81 (x^2 - 2) cos(x) + (9 x^2 - 2) cos(3 x) - 6 x (sin(3 x) - 27 sin(x))) + constant
+    Alternate forms of the integral: 1/108 ((162 - 81 x^2) cos(x) + (9 x^2 - 2) cos(3 x) + 162 x sin(x) - 6 x sin(3 x)) + constant | 1/108 (9 x^2 cos(3 x) - 81 (x^2 - 2) cos(x) + 162 x sin(x) - 6 x sin(3 x) - 2 cos(3 x)) + constant | (3/2 - (3 x^2)/4) cos(x) + (x^2/12 - 1/54) cos(3 x) + x ((3 sin(x))/2 - 1/18 sin(3 x)) + constant
+    Series expansion of the integral at x = 0: 40/27 + x^6/6 - x^8/16 + O(x^9)
+(Taylor series)
+02. population of Russia 2024
+    [ok]
+    Input interpretation: Russia | population | 2024
+    Result: 145 million people (2023 projection) (world rank: 9th) (2024 estimate)
+    Demographics: population | 145 million people (2023 projection) (world rank: 9th) (2024 estimate)
+population density | 22.9 people/mi^2 (people per square mile) (world rank: 222nd) (2024 estimate)
+    Largest cities: city | population
+Moscow, Central | 13.01 million people
+Saint Petersburg, Admiralteysky | 5.602 million people
+Novosibirsk | 1.634 million people
+Yekaterinburg | 1.344 million people
+Nizhny Novgorod | 1.213 million people
+(2006, 2010, 2015, 2016, 2017, 2018, 2021, 2023, and 2024 estimates)
+    Comparisons: ≈ ( 0.019 ≈ 1/54 ) × world population ( 7.795 billion people ) | ≈ 0.69 × current population of Brazil ( 209.3 million people ) | ≈ 1.4 × current population of Philippines ( 104.9 million people )
+03. molar mass of H2SO4
+    [ok]
+    Input interpretation: sulfuric acid | molar mass
+    Result: 98.07 g/mol (grams per mole)
+    Unit conversion: 0.09807 kg/mol (kilograms per mole)
+    Comparisons as molar mass: ≈ ( 0.14 ≈ 1/7 ) × molar mass of fullerene ( 720.642 g/mol ) | ≈ 0.51 × molar mass of caffeine ( 194.191 g/mol ) | ≈ 1.7 × molar mass of sodium chloride ( 58.443 g/mol )
+    Corresponding quantities: Mass of a molecule m from m = M/N_A:
+ | 1.6 × 10^-22 grams
+ | 1.6 × 10^-25 kg (kilograms)
+ | 98 u (unified atomic mass units)
+ | 98 Da (daltons) | Relative molecular mass M_r from M_r = M_u/M:
+ | 98
+04. kinetic energy of 5kg object at 10m/s
+    [ok]
+    Input information: kinetic energy | 
+mass | 5 kg (kilograms)
+velocity | 10 m/s (meters per second)
+    Result: kinetic energy | 250 J (joules)
+= 0.06944 W h (watt hours)
+= 1.56 × 10^12 GeV (gigaelectronvolts)
+    Equation: K = (m v^2)/2 | 
+K | kinetic energy
+m | mass
+v | velocity
+(the energy of an object due to its motion)
+05. distance between Moscow and Saint Petersburg
+    [ok]
+    Input interpretation: distance | from | Moscow, Tsentralniy, Russia
+to | Saint Petersburg, Admiralteyskiy, Russia
+    Result: 395.3 miles
+    Unit conversions: 636.2 km (kilometers) | 636161 meters | 6.362 × 10^7 cm (centimeters) | 343.5 nmi (nautical miles)
+    Direct travel times: aircraft (550 mph) | 43 minutes
+sound | 31 minutes
+light in fiber | 3 ms (milliseconds)
+light in vacuum | 2 ms (milliseconds)
+(assuming constant-speed great-circle path)
+06. 100 USD to RUB
+    [ok]
+    Input interpretation: convert $100 (US dollars) to Russian rubles
+    Result: 8475.17 ₽ (Russian rubles) (October 6, 2026)
+    Exchange history for $100 (US dollars): 1-year minimum | 7084.76 ₽ (May 28, 2026 | 4 months ago)
+1-year maximum | 8729.72 ₽ (September 2, 2026 | 1 month ago)
+1-year average | 7876.12 ₽ (annualized volatility: 13%)
+    Additional currency conversions for $100 (US dollars): EUR | €88.74 (euros)
+CNY | ￥670.46 (Chinese yuan)
+JPY | ¥15809 (Japanese yen)
+GBP | £75.32 (British pounds)
+CAD | C$142.50 (Canadian dollars)
+MXN | $1794.45 (Mexican pesos)
+GTQ | Q762.91 (Guatemala quetzales)
+CRC | ₡45725.83 (Costa Rican colones)
+HNL | L2682.77 (Honduran lempiras)
+JMD | J$15872.44 (Jamaican dollars)
+XAU | 0.02 oz (gold ounces)
+XAG | 1.63 oz (silver ounces)
+07. current time in Kazan
+    [ok]
+    Input interpretation: current time in Kazan, Kazan', Russia
+    Result: 5:06:24 pm MSK | Wednesday, October 7, 2026
+    Time offset from EDT: +7 hours
+    Clocks: Moscow
+
+5:06:24 pm MSK
+Wednesday, October 7 Arlington, Virginia
+
+10:06:24 am EDT
+Wednesday, October 7
+    Current Greenwich mean time: 2:06:24 pm GMT | Wednesday, October 7, 2026
+08. distance to Mars
+    [ok]
+    Input interpretation: Mars | distance from Earth
+    Current result: 1.619 au (astronomical units)
+    Unit conversions: 2.423 × 10^8 km (kilometers) | 2.423 × 10^11 meters | 150.5 million miles
+    Comparisons as distance: ≈ ( 0.018 ≈ 1/55 ) × smallest distance from the Sun to the heliosheath ( 79 to 100 au ) | ≈ 1.6 × mean Earth-Sun distance ( 1.0000010178 au )
+    Corresponding quantities: Light travel time t in vacuum from t = x/c:
+ | 13 minutes | Light travel time t in an optical fiber t = 1.48x/c:
+ | 20 minutes | Solar radiation pressure from P = L_☉/(c4πr^2):
+ | 1.7 μPa (micropascals)
+ | (assuming solar constant ≈ 1.36 kW/m^2)
+    Orbital properties: current distance from Earth | 1.619 au
+13.47 light minutes
+average distance from Earth | 1.7 au
+14.1 light minutes
+current distance from Sun | 1.566 au
+13.03 light minutes
+apoapsis | 154.863553 million mi
+1.66599116 au
+periapsis | 128.402967 million mi
+1.38133346 au
+orbital period | 1.8808476 a
+09. body mass index 180cm 75kg
+    [ok]
+    Input information: body mass index | 
+height | 180 cm (centimeters)
+body weight | 75 kg (kilograms)
+    Result: body mass index | 23.15
+    Equation: BMI = W/H^2 | 
+BMI | body mass index
+H | height
+W | body weight
+(based on Quetelet's formula)
+    International weight classification: normal range (18.5-25)
+    BMI prime: 0.926
+    Comparison to USA population: | 95% reference range | percentile rank | z-score | distribution
+height | 4' 11" to 6' 3" | 85.2% | 1.1 | 
+weight | (108 to 283) lb (pounds) | 44.5% | -0.27 | 
+body mass index | (19 to 44) | 22.1% | -0.78 |
+10. translate hello to Russian
+    [ok]
+    Input interpretation: translate | hello | to Russian
+    Results: (noun) привет | приветствие
+Здравствуйте
+11. solve x^2 - 5x + 6 = 0
+    [ok]
+    Input interpretation: solve x^2 - 5 x + 6 = 0
+    Results: x = 2 | x = 3
+    Sum of roots: 5
+    Product of roots: 6
+12. differentiate x^3 + 2x
+    [ok]
+    Derivative: d/dx(x^3 + 2 x) = 3 x^2 + 2
+    Geometric figure: parabola
+    Alternate form: 1/3 (sqrt(6) - 3 i x) (sqrt(6) + 3 i x)
+    Complex roots: x = -i sqrt(2/3) | x = i sqrt(2/3)
+    Polynomial discriminant: Δ = -24
+    Properties as a real function: R (all real numbers) | {y element R : y>=2} | even
+    Indefinite integral: integral(2 + 3 x^2) dx = x^3 + 2 x + constant
+    Global minimum: min{3 x^2 + 2} = 2 at x = 0
+13. det {{1,2},{3,4}}
+    [ok]
+    Input interpretation: left bracketing bar 1 | 2
+3 | 4 right bracketing bar
+    Result: -2
+    Number name: negative two
+14. factor 360
+    [ok]
+    Input interpretation: factor | 360
+    Result: 2^3 × 3^2 × 5 (6 prime factors, 3 distinct)
+    Divisors: 1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 15 | 18 | 20 | 24 | 30 | 36 | 40 | 45 | 60 | 72 | 90 | 120 | 180 | 360 (24 divisors)
+15. 10 kilometers in meters
+    [ok]
+    Input interpretation: convert 10 km (kilometers) to meters
+    Result: 10000 meters
+    Additional conversions: 6.214 miles | 1 × 10^6 cm (centimeters)
+    Comparison as length: ≈ (0.4 to 3.1) × length of a single Formula One lap ( 3.186 to 25.8 km )
+    Comparisons as height: ≈ ( 0.24 ≈ 1/4 ) × greatest height above the Earth from which a human has jumped (Alan Eustace in 2014) ( 135889.108 ft ) | ≈ 1.1 × height of Mount Everest ( 8850 m ) | ≈ 2.9 × height of Lego bricks a single brick can support without plastic failure ( ≈ 3.5 km )
+    Comparison as thickness: ≈ thickness of the Earth's ozone layer ( ≈ 10 km )
+    Comparisons as depth: ≈ 0.92 × greatest ocean depth ( 10924 m ) | ≈ 2.7 × mean depth of the Earth's oceans ( 3682 m )
+    Comparison as radius: ≈ 3.4 × solar Schwarzschild radius ( 2953.250077 m )
+    Comparison as diameter: ≈ 1.2 × diameter of the Large Hadron Collider ( 0.3183 circumferences of the Large Hadron Collider )
+    Comparison as circumference: ≈ 0.37 × circumference of the Large Hadron Collider ( ≈ 27 km )
+    Electromagnetic frequency range: VLF (very low frequency)
+    Frequency allocation for United States (ITU region 2): primary use | fixed | maritime mobile
+    Interpretations: length | height | thickness | depth | radius | diameter | circumference
+    Corresponding quantities: Light travel time t in vacuum from t = x/c:
+ | 33 μs (microseconds) | Light travel time t in an optical fiber t = 1.48x/c:
+ | 49 μs (microseconds) | Sound travel time t from t = x/v:
+ | 29 seconds
+ | (assuming speed of sound ≈ 340 m/s) | Distance to horizon (ignoring topography and other obstructions) from this height:
+ | 222 miles
+ | 357.3 km (kilometers)
+ | 357299 meters | Angular wavelength ƛ from ƛ = λ/(2π):
+ | 1592 meters | Frequency ν of electromagnetic radiation in a vacuum from ν = c/λ:
+ | 30 kHz (kilohertz) | Frequency ν of sound from ν = v/λ:
+ | 0.034 Hz (hertz)
+ | (assuming speed of sound ≈ 340 m/s) | Spectroscopic wavenumber ν^~ from ν^~ = 1/λ:
+ | 1 × 10^-6 cm^(-1) (reciprocal centimeters)
+ | 1 × 10^-6 wavenumbers | Wavenumber k from k = 2π/λ:
+ | 6.283 × 10^-6 cm^(-1) (reciprocal centimeters) | Corresponding angle θ around the earth's equator from θ = s/a_ earth :
+ | 1.6 mrad (milliradians)
+ | 0.08983° (degrees)
+ | 5.39' (arcminutes) | Wavelength λ from λ = 2πƛ:
+ | 62832 meters | Frequency ν of a photon in a vacuum from ν = 2πc/ƛ:
+ | 188.4 kHz (kilohertz) | Spectroscopic wavenumber ν^~ from ν^~ = 2π/ƛ:
+ | 6.283 × 10^-4 m^(-1) (reciprocal meters) | Wavenumber k from k = 1/ƛ:
+ | 1 × 10^-4 m^(-1) (reciprocal meters) | Optical power P from P = 1/f:
+ | 1 × 10^-4 D (diopters)
+
+Обработано: 15. С текстовым результатом: 15.
+Файлы: /home/user/workspace/labs_mac/Lab_1_Wolfram/verified_live
+LIVE STATUS COUNTS:
+{'ok': 15}

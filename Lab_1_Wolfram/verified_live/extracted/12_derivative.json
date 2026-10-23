@@ -1,0 +1,79 @@
+{
+  "number": 12,
+  "id": "derivative",
+  "category": "Дополнительный: производная",
+  "query": "differentiate x^3 + 2x",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:35.629466+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Derivative",
+      "primary": true,
+      "text": [
+        "d/dx(x^3 + 2 x) = 3 x^2 + 2"
+      ]
+    },
+    {
+      "id": "GeometricFigure (ofBoundary)",
+      "title": "Geometric figure",
+      "primary": false,
+      "text": [
+        "parabola"
+      ]
+    },
+    {
+      "id": "AlternateForm",
+      "title": "Alternate form",
+      "primary": false,
+      "text": [
+        "1/3 (sqrt(6) - 3 i x) (sqrt(6) + 3 i x)"
+      ]
+    },
+    {
+      "id": "ComplexSolution",
+      "title": "Complex roots",
+      "primary": true,
+      "text": [
+        "x = -i sqrt(2/3)",
+        "x = i sqrt(2/3)"
+      ]
+    },
+    {
+      "id": "PolynomialDiscriminant",
+      "title": "Polynomial discriminant",
+      "primary": false,
+      "text": [
+        "Δ = -24"
+      ]
+    },
+    {
+      "id": "PropertiesAsARealFunction",
+      "title": "Properties as a real function",
+      "primary": false,
+      "text": [
+        "R (all real numbers)",
+        "{y element R : y>=2}",
+        "even"
+      ]
+    },
+    {
+      "id": "IndefiniteIntegral",
+      "title": "Indefinite integral",
+      "primary": true,
+      "text": [
+        "integral(2 + 3 x^2) dx = x^3 + 2 x + constant"
+      ]
+    },
+    {
+      "id": "GlobalMinimum",
+      "title": "Global minimum",
+      "primary": false,
+      "text": [
+        "min{3 x^2 + 2} = 2 at x = 0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "number": 5,
+  "id": "geography",
+  "category": "Географический",
+  "query": "distance between Moscow and Saint Petersburg",
+  "mode": "demo",
+  "timestamp_utc": "2026-10-07T13:44:24.497941+00:00",
+  "status": "no_result",
+  "message": "Демо моделирует отсутствие ответа. Реальный запрос здесь не выполнялся.",
+  "pods": []
+}

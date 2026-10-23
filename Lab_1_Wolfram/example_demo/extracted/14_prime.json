@@ -1,0 +1,28 @@
+{
+  "number": 14,
+  "id": "prime",
+  "category": "Дополнительный: разложение",
+  "query": "factor 360",
+  "mode": "demo",
+  "timestamp_utc": "2026-10-07T13:44:24.499361+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Synthetic input",
+      "primary": false,
+      "text": [
+        "factor 360"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "SYNTHETIC control value",
+      "primary": true,
+      "text": [
+        "2^3 * 3^2 * 5 [контроль: 8*9*5=360]"
+      ]
+    }
+  ]
+}

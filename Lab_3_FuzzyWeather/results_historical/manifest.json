@@ -1,0 +1,8 @@
+{
+  "mode": "historical-demo",
+  "history_provider": "NASA POWER / MERRA-2",
+  "baseline": "2021-01-01..2025-12-31",
+  "run_at_utc": "2026-10-21T15:29:38.878465+00:00",
+  "records": 131472,
+  "method": "Mamdani min/max, centroid; conditional educational comfort 0..100"
+}

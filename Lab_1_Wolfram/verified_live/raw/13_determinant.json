@@ -1,0 +1,117 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 5,
+    "datatypes": "Det",
+    "parsetiming": 0.217,
+    "parsetimedout": false,
+    "id": "N/0BdzdmNOE=6:eJxTTMoPSmNkYGAoZgESHvk5KRCeLpBwTsxJLs1JLEkNSCwqTk1wzs8rSc0rSYALI1guqSVpTDBDfDKL0XiZICMzQUJo4swgcRAPAFRwH40=",
+    "kernelId": "388",
+    "processId": 724781,
+    "version": "2.6",
+    "inputstring": "det {{1,2},{3,4}}",
+    "sbsallowed": false,
+    "parentId": "59f54041-9e71-49a6-92c0-4f4762fc3b4f",
+    "requestId": "59f54041-9e71-49a6-92c0-4f4762fc3b4f",
+    "pods": [
+      {
+        "title": "Input interpretation",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "left bracketing bar 1 | 2\n3 | 4 right bracketing bar"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Identity",
+        "id": "Input",
+        "position": 1,
+        "expressiontypes": {
+          "name": "Default"
+        },
+        "infos": {
+          "text": "left bracketing bar m right bracketing bar is the determinant",
+          "links": {
+            "url": "http://mathworld.wolfram.com/Determinant.html",
+            "text": "Definition",
+            "title": "MathWorld"
+          }
+        }
+      },
+      {
+        "title": "Result",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "-2"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Eigen",
+        "id": "Result",
+        "position": 10,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Visualization",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": ""
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Vector",
+        "id": "Parallelogram",
+        "position": 200,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Number name",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "negative two"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Integer",
+        "id": "NumberName",
+        "position": 910,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Number line",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": ""
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "NumberLine",
+        "id": "NumberLine",
+        "position": 912,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      }
+    ],
+    "timing": 0.449,
+    "timedout": "",
+    "timedoutpods": ""
+  }
+}

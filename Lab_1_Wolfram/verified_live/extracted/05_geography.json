@@ -1,0 +1,47 @@
+{
+  "number": 5,
+  "id": "geography",
+  "category": "Географический",
+  "query": "distance between Moscow and Saint Petersburg",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:18.673471+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input interpretation",
+      "primary": false,
+      "text": [
+        "distance | from | Moscow, Tsentralniy, Russia\nto | Saint Petersburg, Admiralteyskiy, Russia"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Result",
+      "primary": true,
+      "text": [
+        "395.3 miles"
+      ]
+    },
+    {
+      "id": "UnitConversion",
+      "title": "Unit conversions",
+      "primary": false,
+      "text": [
+        "636.2 km (kilometers)",
+        "636161 meters",
+        "6.362 × 10^7 cm (centimeters)",
+        "343.5 nmi (nautical miles)"
+      ]
+    },
+    {
+      "id": "TravelTimes",
+      "title": "Direct travel times",
+      "primary": false,
+      "text": [
+        "aircraft (550 mph) | 43 minutes\nsound | 31 minutes\nlight in fiber | 3 ms (milliseconds)\nlight in vacuum | 2 ms (milliseconds)\n(assuming constant-speed great-circle path)"
+      ]
+    }
+  ]
+}

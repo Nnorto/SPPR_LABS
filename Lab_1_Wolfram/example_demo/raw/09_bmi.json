@@ -1,0 +1,28 @@
+{
+  "_notice": "HANDCRAFTED TEST FIXTURE. NOT A WOLFRAM ALPHA RESPONSE.",
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Synthetic input",
+        "subpods": [
+          {
+            "plaintext": "body mass index 180cm 75kg"
+          }
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "SYNTHETIC control value",
+        "primary": true,
+        "subpods": [
+          {
+            "plaintext": "23.148148... kg/m^2 [контроль: 75 / 1.8^2]"
+          }
+        ]
+      }
+    ]
+  }
+}

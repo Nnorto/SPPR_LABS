@@ -1,0 +1,55 @@
+{
+  "number": 3,
+  "id": "chemistry",
+  "category": "Химический",
+  "query": "molar mass of H2SO4",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:14.088017+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input interpretation",
+      "primary": false,
+      "text": [
+        "sulfuric acid | molar mass"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Result",
+      "primary": true,
+      "text": [
+        "98.07 g/mol (grams per mole)"
+      ]
+    },
+    {
+      "id": "UnitConversion",
+      "title": "Unit conversion",
+      "primary": false,
+      "text": [
+        "0.09807 kg/mol (kilograms per mole)"
+      ]
+    },
+    {
+      "id": "ComparisonAsMolarMass",
+      "title": "Comparisons as molar mass",
+      "primary": false,
+      "text": [
+        "≈ ( 0.14 ≈ 1/7 ) × molar mass of fullerene ( 720.642 g/mol )",
+        "≈ 0.51 × molar mass of caffeine ( 194.191 g/mol )",
+        "≈ 1.7 × molar mass of sodium chloride ( 58.443 g/mol )"
+      ]
+    },
+    {
+      "id": "CorrespondingQuantity",
+      "title": "Corresponding quantities",
+      "primary": false,
+      "text": [
+        "Mass of a molecule m from m = M/N_A:\n | 1.6 × 10^-22 grams\n | 1.6 × 10^-25 kg (kilograms)\n | 98 u (unified atomic mass units)\n | 98 Da (daltons)",
+        "Relative molecular mass M_r from M_r = M_u/M:\n | 98"
+      ]
+    }
+  ]
+}

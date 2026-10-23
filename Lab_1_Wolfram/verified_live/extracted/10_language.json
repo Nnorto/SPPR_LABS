@@ -1,0 +1,28 @@
+{
+  "number": 10,
+  "id": "language",
+  "category": "Лингвистический",
+  "query": "translate hello to Russian",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:32.261575+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input interpretation",
+      "primary": false,
+      "text": [
+        "translate | hello | to Russian"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Results",
+      "primary": false,
+      "text": [
+        "(noun) привет | приветствие\nЗдравствуйте"
+      ]
+    }
+  ]
+}

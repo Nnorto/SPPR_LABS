@@ -1,0 +1,38 @@
+[
+  {
+    "city": "kazan",
+    "received": 43824,
+    "excluded": 0,
+    "valid": 43824,
+    "first": "2021-01-01T00:00:00",
+    "last": "2025-12-31T23:00:00",
+    "expected": 43824,
+    "missing_hours": 0,
+    "outside_period": 0,
+    "coverage": 1.0
+  },
+  {
+    "city": "moscow",
+    "received": 43824,
+    "excluded": 0,
+    "valid": 43824,
+    "first": "2021-01-01T00:00:00",
+    "last": "2025-12-31T23:00:00",
+    "expected": 43824,
+    "missing_hours": 0,
+    "outside_period": 0,
+    "coverage": 1.0
+  },
+  {
+    "city": "spb",
+    "received": 43824,
+    "excluded": 0,
+    "valid": 43824,
+    "first": "2021-01-01T00:00:00",
+    "last": "2025-12-31T23:00:00",
+    "expected": 43824,
+    "missing_hours": 0,
+    "outside_period": 0,
+    "coverage": 1.0
+  }
+]

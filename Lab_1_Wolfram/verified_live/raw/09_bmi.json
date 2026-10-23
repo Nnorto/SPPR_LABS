@@ -1,0 +1,190 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 7,
+    "datatypes": "MedicalTest",
+    "parsetiming": 0.552,
+    "parsetimedout": false,
+    "id": "Q70gBfcE8CI=6:eJydU01PAjEQBUXjQX6EBy/GGL151Y0EghikqNct7IBN2o72A+V/+f902uVzA2aze2hmXvteXjtvz0Y4mNRrtZpt0NJGmU0OQndDS8Ll2EvuoM+NhTRB7UC7dAWvqxYaRQVrEuses3mPW9vRGXxPGkvpR2FdLh26gZfATqhgKGeBvvYQDrLDINTrFAjHVLxy6cH+qxuk2jl2VeYad/LjnT97rp1wc/FDlNzNeRnyixbOXm6ejEjEE1QKNZurEUqbJkQUChwYu8PwW2XD3QqGL8oY7gqJU8PVLrsstk+oobAZJsensG/7NMBcQbaITNwZGl8811xlw+uxE6jzG16XueFC+uHT88iMyke0BERuZyvAQ5qKLbSbMwlgH7/AFNo8aCKA4pe+3OLWn7M3C6hnlANy1+Jjh6by8OsVhn9bxiGjtzLQi3Htg1lm4Q+STjpQ",
+    "kernelId": "366",
+    "processId": 715606,
+    "version": "2.6",
+    "inputstring": "body mass index 180cm 75kg",
+    "sbsallowed": false,
+    "parentId": "2f2b5e40-f68d-4ccf-96d3-ecf03ec8c6a2",
+    "requestId": "2f2b5e40-f68d-4ccf-96d3-ecf03ec8c6a2",
+    "pods": [
+      {
+        "title": "Input information",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "body mass index | \nheight | 180 cm (centimeters)\nbody weight | 75 kg (kilograms)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Formula",
+        "id": "Input",
+        "position": 1,
+        "expressiontypes": {
+          "name": "Grid"
+        }
+      },
+      {
+        "title": "Result",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "body mass index | 23.15"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Formula",
+        "id": "Result",
+        "position": 2320,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Grid"
+        }
+      },
+      {
+        "title": "Equation",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "BMI = W/H^2 | \nBMI | body mass index\nH | height\nW | body weight\n(based on Quetelet's formula)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Formula",
+        "id": "Equation",
+        "position": 2321,
+        "expressiontypes": {
+          "name": "Grid"
+        }
+      },
+      {
+        "title": "International weight classification",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "normal range (18.5-25)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Formula",
+        "id": "InternationalWeightClassification",
+        "position": 10300,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "BMI prime",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "0.926"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Formula",
+        "id": "BMIPrime",
+        "position": 10301,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "BMI map",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": ""
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Formula",
+        "id": "BMIMap",
+        "position": 10302,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Comparison to USA population",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "MedicalTestData"
+            ],
+            "datasources": [
+              "CDCNationalHealthAndNutritionExaminationSurvey",
+              "CDCAmbulatoryHealthCareData"
+            ],
+            "plaintext": " | 95% reference range | percentile rank | z-score | distribution\nheight | 4' 11\" to 6' 3\" | 85.2% | 1.1 | \nweight | (108 to 283) lb (pounds) | 44.5% | -0.27 | \nbody mass index | (19 to 44) | 22.1% | -0.78 | "
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Formula",
+        "id": "ComparisonToUSAPopulation",
+        "position": 10400,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      }
+    ],
+    "assumptions": [
+      {
+        "type": "FormulaSelect",
+        "template": "Assuming ${desc1}. Use ${desc2} instead",
+        "count": 3,
+        "values": [
+          {
+            "name": "BodyMassIndex",
+            "desc": "body mass index",
+            "input": "FSelect_%2A%2ABodyMassIndex--"
+          },
+          {
+            "name": "ABSICalculator",
+            "desc": "A Body Shape Index",
+            "input": "FSelect_%2A%2AABSICalculator--"
+          },
+          {
+            "name": "GrowthChart",
+            "desc": "standard growth curve",
+            "input": "FSelect_%2A%2AGrowthChart--"
+          }
+        ]
+      },
+      {
+        "type": "FormulaVariableInclude",
+        "template": "Also include ${desc1}",
+        "count": 1,
+        "values": {
+          "name": "BodyMassIndex.S",
+          "desc": "gender",
+          "input": "%2AFVarOpt-_%2A%2ABodyMassIndex.S--"
+        }
+      }
+    ],
+    "timing": 2.955,
+    "timedout": "",
+    "timedoutpods": "",
+    "sources": [
+      {
+        "url": "https://www6b3.wolframalpha.com/sources/MedicalTestDataSourceInformationNotes.html",
+        "text": "Medical test data"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "number": 8,
+  "id": "astronomy",
+  "category": "Астрономический",
+  "query": "distance to Mars",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:25.442654+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input interpretation",
+      "primary": false,
+      "text": [
+        "Mars | distance from Earth"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Current result",
+      "primary": true,
+      "text": [
+        "1.619 au (astronomical units)"
+      ]
+    },
+    {
+      "id": "UnitConversion",
+      "title": "Unit conversions",
+      "primary": false,
+      "text": [
+        "2.423 × 10^8 km (kilometers)",
+        "2.423 × 10^11 meters",
+        "150.5 million miles"
+      ]
+    },
+    {
+      "id": "ComparisonAsDistance",
+      "title": "Comparisons as distance",
+      "primary": false,
+      "text": [
+        "≈ ( 0.018 ≈ 1/55 ) × smallest distance from the Sun to the heliosheath ( 79 to 100 au )",
+        "≈ 1.6 × mean Earth-Sun distance ( 1.0000010178 au )"
+      ]
+    },
+    {
+      "id": "CorrespondingQuantity",
+      "title": "Corresponding quantities",
+      "primary": false,
+      "text": [
+        "Light travel time t in vacuum from t = x/c:\n | 13 minutes",
+        "Light travel time t in an optical fiber t = 1.48x/c:\n | 20 minutes",
+        "Solar radiation pressure from P = L_☉/(c4πr^2):\n | 1.7 μPa (micropascals)\n | (assuming solar constant ≈ 1.36 kW/m^2)"
+      ]
+    },
+    {
+      "id": "BasicPlanetOrbitalProperties:PlanetData",
+      "title": "Orbital properties",
+      "primary": false,
+      "text": [
+        "current distance from Earth | 1.619 au\n13.47 light minutes\naverage distance from Earth | 1.7 au\n14.1 light minutes\ncurrent distance from Sun | 1.566 au\n13.03 light minutes\napoapsis | 154.863553 million mi\n1.66599116 au\nperiapsis | 128.402967 million mi\n1.38133346 au\norbital period | 1.8808476 a"
+      ]
+    }
+  ]
+}

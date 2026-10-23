@@ -1,0 +1,36 @@
+{
+  "number": 13,
+  "id": "determinant",
+  "category": "Дополнительный: определитель",
+  "query": "det {{1,2},{3,4}}",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:37.357673+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input interpretation",
+      "primary": false,
+      "text": [
+        "left bracketing bar 1 | 2\n3 | 4 right bracketing bar"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Result",
+      "primary": true,
+      "text": [
+        "-2"
+      ]
+    },
+    {
+      "id": "NumberName",
+      "title": "Number name",
+      "primary": false,
+      "text": [
+        "negative two"
+      ]
+    }
+  ]
+}

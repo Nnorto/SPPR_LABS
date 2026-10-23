@@ -1,0 +1,35 @@
+{
+  "patent_id": "invention:1799900",
+  "patent_type": "invention",
+  "patent_number": 1799900,
+  "patent_number_full": null,
+  "title": "(54) Способ получения дизельного топлива",
+  "status_info": {
+    "status": null,
+    "last_change": null
+  },
+  "application_details": {
+    "application_number": null,
+    "application_date": null,
+    "registration_date": null,
+    "publication_date": null,
+    "publication_bulletin_number": null
+  },
+  "date": null,
+  "ipc": [],
+  "cpc": [],
+  "inventors": [],
+  "authors": [],
+  "owners": [],
+  "correspondence_address": null,
+  "abstract": null,
+  "claims": null,
+  "description_sections": [],
+  "search_report": null,
+  "url": "https://www1.fips.ru/registers-doc-view/fips_servlet?DB=RUPAT&rn=1166&DocNumber=1799900&TypeFile=html",
+  "bibliography_raw": "(21)(22) Заявка: 4866822, 17.09.1990 (45) Опубликовано: 07.03.1993 (56) Список документов, цитированных в отчете о поиске: Радченко Е. Д. и др. Промышленные  катализаторы гидрогенизационных процессов нефтепереработки. М.: Химия, 1987, с.  10-13. Авторское свидетельство СССР  Ns 150499, кл. С 10 G 45/02, 1961. Адрес для переписки: 11 117917 МОСКВА ГСП-1, ЛЕНИНСКИЙ ПР-Т 65 (71) Заявитель(и): МОСКОВСКИЙ ИНСТИТУТ НЕФТИ И ГАЗА ИМ.И.М.ГУБКИНА (72) Автор(ы): КАПУСТИН ВЛАДИМИР МИХАЙЛОВИЧ, МЕЛЬМАН АЛЕКСАНДР ЗЕЛИКОВИЧ, КИРИЛИН ЮРИЙ АНДРЕЕВИЧ, ТЮТЮГИН ОЛЕГ ГУМАРОВИЧ, ЕГОРОВ ЮРИЙ АЛЕКСАНДРОВИЧ, НАСИРОВ РАШИД КУЛАМОВИЧ, ОВЧИННИКОВ ВЛАДИМИР НИКОЛАЕВИЧ, ПОДЛЕСНЫЙ ВЛАДИМИР НИКОЛАЕВИЧ, НОВИКОВ ВЛАДИМИР БОРИСОВИЧ, МУНД СЕРГЕЙ ЛЬВОВИЧ, ВЛАСОВ ВЛАДИМИР ПЕТРОВИЧ",
+  "collected_at_utc": "2026-10-23T07:59:05.719797+00:00",
+  "html_sha256": "b6b4d16b667730c0fa917b63f2bed5eb316e48c60cfc7e64f0139dbabf5fc18a",
+  "review_required": true,
+  "missing_fields_note": "Поля null и пустые массивы не извлечены: проверьте исходную карточку, это не доказательство отсутствия сведений."
+}

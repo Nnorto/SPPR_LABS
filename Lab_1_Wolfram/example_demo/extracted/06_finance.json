@@ -1,0 +1,11 @@
+{
+  "number": 6,
+  "id": "finance",
+  "category": "Финансовый",
+  "query": "100 USD to RUB",
+  "mode": "demo",
+  "timestamp_utc": "2026-10-07T13:44:24.498095+00:00",
+  "status": "no_result",
+  "message": "Демо моделирует отсутствие ответа. Реальный запрос здесь не выполнялся.",
+  "pods": []
+}

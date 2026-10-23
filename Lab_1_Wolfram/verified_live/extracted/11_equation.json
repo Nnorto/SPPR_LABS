@@ -1,0 +1,45 @@
+{
+  "number": 11,
+  "id": "equation",
+  "category": "Дополнительный: уравнение",
+  "query": "solve x^2 - 5x + 6 = 0",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:33.796748+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input interpretation",
+      "primary": false,
+      "text": [
+        "solve x^2 - 5 x + 6 = 0"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Results",
+      "primary": true,
+      "text": [
+        "x = 2",
+        "x = 3"
+      ]
+    },
+    {
+      "id": "SumOfRoots",
+      "title": "Sum of roots",
+      "primary": false,
+      "text": [
+        "5"
+      ]
+    },
+    {
+      "id": "ProductOfRoots",
+      "title": "Product of roots",
+      "primary": false,
+      "text": [
+        "6"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 5,
+    "datatypes": "CalendarEvent",
+    "parsetiming": 0.362,
+    "parsetimedout": false,
+    "id": "ChEmgMUHp6U=6:eJyNj8sKwjAQReMT/AyXbsRfKLUgKChNV646bROMxEQ6E0W/3hkEcdnN5c7jXGaWTSztSCmFU5Zd9J0Vg2uWHHybPJA5QY+mzmMgE6j+tcWZ0EFfPLiPC0ayRPEG5Fo7lpTNkJTM3y+wZXdsrqYlPWEoxCeuhsDVWW42veNlZQXFOUsRyNFLyys5m+9AqoND0jM2e3hD0HJzBcThxJWQZUJ0YNU/8AH9TFUa",
+    "kernelId": "396",
+    "processId": 756759,
+    "version": "2.6",
+    "inputstring": "current time in Kazan",
+    "sbsallowed": false,
+    "userinfoused": [
+      {
+        "name": "Country"
+      },
+      {
+        "name": "TimeZone"
+      }
+    ],
+    "parentId": "7c6f9229-f9bf-4437-a3d0-32120d17cf3c",
+    "requestId": "7c6f9229-f9bf-4437-a3d0-32120d17cf3c",
+    "pods": [
+      {
+        "title": "Input interpretation",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "current time in Kazan, Kazan', Russia"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Identity",
+        "id": "Input",
+        "position": 1,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Result",
+        "subpods": [
+          {
+            "title": "",
+            "primary": true,
+            "plaintext": "5:06:24 pm MSK | Wednesday, October 7, 2026"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Identity",
+        "id": "Result",
+        "position": 2,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Time offset from EDT",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "+7 hours"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Date",
+        "id": "TimeOffsets",
+        "position": 1201,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Clocks",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "Moscow\n\n5:06:24 pm MSK\nWednesday, October 7 Arlington, Virginia\n\n10:06:24 am EDT\nWednesday, October 7"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Date",
+        "id": "ClockImages",
+        "position": 1202,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Current Greenwich mean time",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "2:06:24 pm GMT | Wednesday, October 7, 2026"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Date",
+        "id": "CurrentGMTTime",
+        "position": 3000,
+        "expressiontypes": {
+          "name": "Grid"
+        }
+      }
+    ],
+    "assumptions": [
+      {
+        "type": "SubCategory",
+        "word": "Kazan",
+        "template": "Assuming ${desc1}. Use ${desc2} instead",
+        "count": 2,
+        "values": [
+          {
+            "name": "{Kazan, Tatarstan, Russia}",
+            "desc": "Kazan (Russia)",
+            "input": "%2ADPClash.CityE.Kazan-_%2A%2AKazan.Tatarstan.Russia--"
+          },
+          {
+            "name": "{Kazan, Ankara, Turkey}",
+            "desc": "Kazan (Turkey)",
+            "input": "%2ADPClash.CityE.Kazan-_%2A%2AKazan.Ankara.Turkey--"
+          }
+        ]
+      }
+    ],
+    "timing": 0.831,
+    "timedout": "",
+    "timedoutpods": ""
+  }
+}

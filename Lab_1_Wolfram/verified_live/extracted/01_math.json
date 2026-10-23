@@ -1,0 +1,38 @@
+{
+  "number": 1,
+  "id": "math",
+  "category": "Математический",
+  "query": "integrate x^2 sin^3 x dx",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:05.371590+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "IndefiniteIntegral",
+      "title": "Indefinite integral",
+      "primary": true,
+      "text": [
+        "integral x^2 sin^3(x) dx = 1/108 (-81 (x^2 - 2) cos(x) + (9 x^2 - 2) cos(3 x) - 6 x (sin(3 x) - 27 sin(x))) + constant"
+      ]
+    },
+    {
+      "id": "AlternateFormOfTheIntegral",
+      "title": "Alternate forms of the integral",
+      "primary": false,
+      "text": [
+        "1/108 ((162 - 81 x^2) cos(x) + (9 x^2 - 2) cos(3 x) + 162 x sin(x) - 6 x sin(3 x)) + constant",
+        "1/108 (9 x^2 cos(3 x) - 81 (x^2 - 2) cos(x) + 162 x sin(x) - 6 x sin(3 x) - 2 cos(3 x)) + constant",
+        "(3/2 - (3 x^2)/4) cos(x) + (x^2/12 - 1/54) cos(3 x) + x ((3 sin(x))/2 - 1/18 sin(3 x)) + constant"
+      ]
+    },
+    {
+      "id": "SeriesExpansionOfTheIntegralAtx=0",
+      "title": "Series expansion of the integral at x = 0",
+      "primary": false,
+      "text": [
+        "40/27 + x^6/6 - x^8/16 + O(x^9)\n(Taylor series)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "_notice": "HANDCRAFTED TEST FIXTURE. NOT A WOLFRAM ALPHA RESPONSE.",
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Synthetic input",
+        "subpods": [
+          {
+            "plaintext": "det {{1,2},{3,4}}"
+          }
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "SYNTHETIC control value",
+        "primary": true,
+        "subpods": [
+          {
+            "plaintext": "-2 [контроль: 1*4 - 2*3]"
+          }
+        ]
+      }
+    ]
+  }
+}

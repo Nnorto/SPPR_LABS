@@ -1,0 +1,28 @@
+{
+  "number": 15,
+  "id": "units",
+  "category": "Дополнительный: единицы",
+  "query": "10 kilometers in meters",
+  "mode": "demo",
+  "timestamp_utc": "2026-10-07T13:44:24.499526+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Synthetic input",
+      "primary": false,
+      "text": [
+        "10 kilometers in meters"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "SYNTHETIC control value",
+      "primary": true,
+      "text": [
+        "10000 m [контроль: 10*1000]"
+      ]
+    }
+  ]
+}

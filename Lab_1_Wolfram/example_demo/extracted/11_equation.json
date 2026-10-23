@@ -1,0 +1,28 @@
+{
+  "number": 11,
+  "id": "equation",
+  "category": "Дополнительный: уравнение",
+  "query": "solve x^2 - 5x + 6 = 0",
+  "mode": "demo",
+  "timestamp_utc": "2026-10-07T13:44:24.498895+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Synthetic input",
+      "primary": false,
+      "text": [
+        "solve x^2 - 5x + 6 = 0"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "SYNTHETIC control value",
+      "primary": true,
+      "text": [
+        "x = 2 or x = 3 [контроль: (x-2)(x-3)=0]"
+      ]
+    }
+  ]
+}

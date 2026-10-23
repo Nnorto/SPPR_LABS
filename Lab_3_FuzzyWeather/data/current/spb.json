@@ -1,0 +1,45 @@
+{
+  "coord": {
+    "lon": 30.3351,
+    "lat": 59.9343
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "ясно",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 10.01,
+    "feels_like": 8.97,
+    "temp_min": 10,
+    "temp_max": 11.42,
+    "pressure": 1023,
+    "humidity": 73,
+    "sea_level": 1023,
+    "grnd_level": 1024
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 4,
+    "deg": 140
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1792745662,
+  "sys": {
+    "type": 2,
+    "id": 2045711,
+    "country": "RU",
+    "sunrise": 1792731408,
+    "sunset": 1792765736
+  },
+  "timezone": 10800,
+  "id": 519690,
+  "name": "Новая Голландия",
+  "cod": 200
+}

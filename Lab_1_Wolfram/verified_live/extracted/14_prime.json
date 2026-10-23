@@ -1,0 +1,36 @@
+{
+  "number": 14,
+  "id": "prime",
+  "category": "Дополнительный: разложение",
+  "query": "factor 360",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:38.842863+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input interpretation",
+      "primary": false,
+      "text": [
+        "factor | 360"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Result",
+      "primary": true,
+      "text": [
+        "2^3 × 3^2 × 5 (6 prime factors, 3 distinct)"
+      ]
+    },
+    {
+      "id": "Divisors",
+      "title": "Divisors",
+      "primary": false,
+      "text": [
+        "1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 15 | 18 | 20 | 24 | 30 | 36 | 40 | 45 | 60 | 72 | 90 | 120 | 180 | 360 (24 divisors)"
+      ]
+    }
+  ]
+}

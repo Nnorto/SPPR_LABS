@@ -1,0 +1,28 @@
+{
+  "_notice": "HANDCRAFTED TEST FIXTURE. NOT A WOLFRAM ALPHA RESPONSE.",
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Synthetic input",
+        "subpods": [
+          {
+            "plaintext": "differentiate x^3 + 2x"
+          }
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "SYNTHETIC control value",
+        "primary": true,
+        "subpods": [
+          {
+            "plaintext": "3 x^2 + 2 [контрольное вычисление]"
+          }
+        ]
+      }
+    ]
+  }
+}

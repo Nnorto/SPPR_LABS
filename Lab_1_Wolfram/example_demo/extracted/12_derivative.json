@@ -1,0 +1,28 @@
+{
+  "number": 12,
+  "id": "derivative",
+  "category": "Дополнительный: производная",
+  "query": "differentiate x^3 + 2x",
+  "mode": "demo",
+  "timestamp_utc": "2026-10-07T13:44:24.499057+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Synthetic input",
+      "primary": false,
+      "text": [
+        "differentiate x^3 + 2x"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "SYNTHETIC control value",
+      "primary": true,
+      "text": [
+        "3 x^2 + 2 [контрольное вычисление]"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+[
+  {
+    "number": 1,
+    "id": "math",
+    "category": "Математический",
+    "query": "integrate x^2 sin^3 x dx",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:05.371590+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "IndefiniteIntegral",
+        "title": "Indefinite integral",
+        "primary": true,
+        "text": [
+          "integral x^2 sin^3(x) dx = 1/108 (-81 (x^2 - 2) cos(x) + (9 x^2 - 2) cos(3 x) - 6 x (sin(3 x) - 27 sin(x))) + constant"
+        ]
+      },
+      {
+        "id": "AlternateFormOfTheIntegral",
+        "title": "Alternate forms of the integral",
+        "primary": false,
+        "text": [
+          "1/108 ((162 - 81 x^2) cos(x) + (9 x^2 - 2) cos(3 x) + 162 x sin(x) - 6 x sin(3 x)) + constant",
+          "1/108 (9 x^2 cos(3 x) - 81 (x^2 - 2) cos(x) + 162 x sin(x) - 6 x sin(3 x) - 2 cos(3 x)) + constant",
+          "(3/2 - (3 x^2)/4) cos(x) + (x^2/12 - 1/54) cos(3 x) + x ((3 sin(x))/2 - 1/18 sin(3 x)) + constant"
+        ]
+      },
+      {
+        "id": "SeriesExpansionOfTheIntegralAtx=0",
+        "title": "Series expansion of the integral at x = 0",
+        "primary": false,
+        "text": [
+          "40/27 + x^6/6 - x^8/16 + O(x^9)\n(Taylor series)"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "id": "fact",
+    "category": "Фактологический",
+    "query": "population of Russia 2024",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:10.157362+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input interpretation",
+        "primary": false,
+        "text": [
+          "Russia | population | 2024"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Result",
+        "primary": true,
+        "text": [
+          "145 million people (2023 projection) (world rank: 9th) (2024 estimate)"
+        ]
+      },
+      {
+        "id": "DemographicProperties:CountryData",
+        "title": "Demographics",
+        "primary": false,
+        "text": [
+          "population | 145 million people (2023 projection) (world rank: 9th) (2024 estimate)\npopulation density | 22.9 people/mi^2 (people per square mile) (world rank: 222nd) (2024 estimate)"
+        ]
+      },
+      {
+        "id": "LargestCities:CountryData",
+        "title": "Largest cities",
+        "primary": false,
+        "text": [
+          "city | population\nMoscow, Central | 13.01 million people\nSaint Petersburg, Admiralteysky | 5.602 million people\nNovosibirsk | 1.634 million people\nYekaterinburg | 1.344 million people\nNizhny Novgorod | 1.213 million people\n(2006, 2010, 2015, 2016, 2017, 2018, 2021, 2023, and 2024 estimates)"
+        ]
+      },
+      {
+        "id": "ComparisonAsPersonCount",
+        "title": "Comparisons",
+        "primary": false,
+        "text": [
+          "≈ ( 0.019 ≈ 1/54 ) × world population ( 7.795 billion people )",
+          "≈ 0.69 × current population of Brazil ( 209.3 million people )",
+          "≈ 1.4 × current population of Philippines ( 104.9 million people )"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "id": "chemistry",
+    "category": "Химический",
+    "query": "molar mass of H2SO4",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:14.088017+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input interpretation",
+        "primary": false,
+        "text": [
+          "sulfuric acid | molar mass"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Result",
+        "primary": true,
+        "text": [
+          "98.07 g/mol (grams per mole)"
+        ]
+      },
+      {
+        "id": "UnitConversion",
+        "title": "Unit conversion",
+        "primary": false,
+        "text": [
+          "0.09807 kg/mol (kilograms per mole)"
+        ]
+      },
+      {
+        "id": "ComparisonAsMolarMass",
+        "title": "Comparisons as molar mass",
+        "primary": false,
+        "text": [
+          "≈ ( 0.14 ≈ 1/7 ) × molar mass of fullerene ( 720.642 g/mol )",
+          "≈ 0.51 × molar mass of caffeine ( 194.191 g/mol )",
+          "≈ 1.7 × molar mass of sodium chloride ( 58.443 g/mol )"
+        ]
+      },
+      {
+        "id": "CorrespondingQuantity",
+        "title": "Corresponding quantities",
+        "primary": false,
+        "text": [
+          "Mass of a molecule m from m = M/N_A:\n | 1.6 × 10^-22 grams\n | 1.6 × 10^-25 kg (kilograms)\n | 98 u (unified atomic mass units)\n | 98 Da (daltons)",
+          "Relative molecular mass M_r from M_r = M_u/M:\n | 98"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "id": "physics",
+    "category": "Физический",
+    "query": "kinetic energy of 5kg object at 10m/s",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:16.219506+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input information",
+        "primary": false,
+        "text": [
+          "kinetic energy | \nmass | 5 kg (kilograms)\nvelocity | 10 m/s (meters per second)"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Result",
+        "primary": true,
+        "text": [
+          "kinetic energy | 250 J (joules)\n= 0.06944 W h (watt hours)\n= 1.56 × 10^12 GeV (gigaelectronvolts)"
+        ]
+      },
+      {
+        "id": "Equation",
+        "title": "Equation",
+        "primary": false,
+        "text": [
+          "K = (m v^2)/2 | \nK | kinetic energy\nm | mass\nv | velocity\n(the energy of an object due to its motion)"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "id": "geography",
+    "category": "Географический",
+    "query": "distance between Moscow and Saint Petersburg",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:18.673471+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input interpretation",
+        "primary": false,
+        "text": [
+          "distance | from | Moscow, Tsentralniy, Russia\nto | Saint Petersburg, Admiralteyskiy, Russia"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Result",
+        "primary": true,
+        "text": [
+          "395.3 miles"
+        ]
+      },
+      {
+        "id": "UnitConversion",
+        "title": "Unit conversions",
+        "primary": false,
+        "text": [
+          "636.2 km (kilometers)",
+          "636161 meters",
+          "6.362 × 10^7 cm (centimeters)",
+          "343.5 nmi (nautical miles)"
+        ]
+      },
+      {
+        "id": "TravelTimes",
+        "title": "Direct travel times",
+        "primary": false,
+        "text": [
+          "aircraft (550 mph) | 43 minutes\nsound | 31 minutes\nlight in fiber | 3 ms (milliseconds)\nlight in vacuum | 2 ms (milliseconds)\n(assuming constant-speed great-circle path)"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "id": "finance",
+    "category": "Финансовый",
+    "query": "100 USD to RUB",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:21.111057+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input interpretation",
+        "primary": false,
+        "text": [
+          "convert $100 (US dollars) to Russian rubles"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Result",
+        "primary": true,
+        "text": [
+          "8475.17 ₽ (Russian rubles) (October 6, 2026)"
+        ]
+      },
+      {
+        "id": "History",
+        "title": "Exchange history for $100 (US dollars)",
+        "primary": false,
+        "text": [
+          "1-year minimum | 7084.76 ₽ (May 28, 2026 | 4 months ago)\n1-year maximum | 8729.72 ₽ (September 2, 2026 | 1 month ago)\n1-year average | 7876.12 ₽ (annualized volatility: 13%)"
+        ]
+      },
+      {
+        "id": "CurrencyConversions",
+        "title": "Additional currency conversions for $100 (US dollars)",
+        "primary": false,
+        "text": [
+          "EUR | €88.74 (euros)\nCNY | ￥670.46 (Chinese yuan)\nJPY | ¥15809 (Japanese yen)\nGBP | £75.32 (British pounds)\nCAD | C$142.50 (Canadian dollars)\nMXN | $1794.45 (Mexican pesos)\nGTQ | Q762.91 (Guatemala quetzales)\nCRC | ₡45725.83 (Costa Rican colones)\nHNL | L2682.77 (Honduran lempiras)\nJMD | J$15872.44 (Jamaican dollars)\nXAU | 0.02 oz (gold ounces)\nXAG | 1.63 oz (silver ounces)"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "id": "time",
+    "category": "Временной",
+    "query": "current time in Kazan",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:23.575339+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input interpretation",
+        "primary": false,
+        "text": [
+          "current time in Kazan, Kazan', Russia"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Result",
+        "primary": true,
+        "text": [
+          "5:06:24 pm MSK | Wednesday, October 7, 2026"
+        ]
+      },
+      {
+        "id": "TimeOffsets",
+        "title": "Time offset from EDT",
+        "primary": false,
+        "text": [
+          "+7 hours"
+        ]
+      },
+      {
+        "id": "ClockImages",
+        "title": "Clocks",
+        "primary": false,
+        "text": [
+          "Moscow\n\n5:06:24 pm MSK\nWednesday, October 7 Arlington, Virginia\n\n10:06:24 am EDT\nWednesday, October 7"
+        ]
+      },
+      {
+        "id": "CurrentGMTTime",
+        "title": "Current Greenwich mean time",
+        "primary": false,
+        "text": [
+          "2:06:24 pm GMT | Wednesday, October 7, 2026"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "id": "astronomy",
+    "category": "Астрономический",
+    "query": "distance to Mars",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:25.442654+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input interpretation",
+        "primary": false,
+        "text": [
+          "Mars | distance from Earth"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Current result",
+        "primary": true,
+        "text": [
+          "1.619 au (astronomical units)"
+        ]
+      },
+      {
+        "id": "UnitConversion",
+        "title": "Unit conversions",
+        "primary": false,
+        "text": [
+          "2.423 × 10^8 km (kilometers)",
+          "2.423 × 10^11 meters",
+          "150.5 million miles"
+        ]
+      },
+      {
+        "id": "ComparisonAsDistance",
+        "title": "Comparisons as distance",
+        "primary": false,
+        "text": [
+          "≈ ( 0.018 ≈ 1/55 ) × smallest distance from the Sun to the heliosheath ( 79 to 100 au )",
+          "≈ 1.6 × mean Earth-Sun distance ( 1.0000010178 au )"
+        ]
+      },
+      {
+        "id": "CorrespondingQuantity",
+        "title": "Corresponding quantities",
+        "primary": false,
+        "text": [
+          "Light travel time t in vacuum from t = x/c:\n | 13 minutes",
+          "Light travel time t in an optical fiber t = 1.48x/c:\n | 20 minutes",
+          "Solar radiation pressure from P = L_☉/(c4πr^2):\n | 1.7 μPa (micropascals)\n | (assuming solar constant ≈ 1.36 kW/m^2)"
+        ]
+      },
+      {
+        "id": "BasicPlanetOrbitalProperties:PlanetData",
+        "title": "Orbital properties",
+        "primary": false,
+        "text": [
+          "current distance from Earth | 1.619 au\n13.47 light minutes\naverage distance from Earth | 1.7 au\n14.1 light minutes\ncurrent distance from Sun | 1.566 au\n13.03 light minutes\napoapsis | 154.863553 million mi\n1.66599116 au\nperiapsis | 128.402967 million mi\n1.38133346 au\norbital period | 1.8808476 a"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "id": "bmi",
+    "category": "Индекс массы тела",
+    "query": "body mass index 180cm 75kg",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:28.267462+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input information",
+        "primary": false,
+        "text": [
+          "body mass index | \nheight | 180 cm (centimeters)\nbody weight | 75 kg (kilograms)"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Result",
+        "primary": true,
+        "text": [
+          "body mass index | 23.15"
+        ]
+      },
+      {
+        "id": "Equation",
+        "title": "Equation",
+        "primary": false,
+        "text": [
+          "BMI = W/H^2 | \nBMI | body mass index\nH | height\nW | body weight\n(based on Quetelet's formula)"
+        ]
+      },
+      {
+        "id": "InternationalWeightClassification",
+        "title": "International weight classification",
+        "primary": false,
+        "text": [
+          "normal range (18.5-25)"
+        ]
+      },
+      {
+        "id": "BMIPrime",
+        "title": "BMI prime",
+        "primary": false,
+        "text": [
+          "0.926"
+        ]
+      },
+      {
+        "id": "ComparisonToUSAPopulation",
+        "title": "Comparison to USA population",
+        "primary": false,
+        "text": [
+          "| 95% reference range | percentile rank | z-score | distribution\nheight | 4' 11\" to 6' 3\" | 85.2% | 1.1 | \nweight | (108 to 283) lb (pounds) | 44.5% | -0.27 | \nbody mass index | (19 to 44) | 22.1% | -0.78 |"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "id": "language",
+    "category": "Лингвистический",
+    "query": "translate hello to Russian",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:32.261575+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input interpretation",
+        "primary": false,
+        "text": [
+          "translate | hello | to Russian"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Results",
+        "primary": false,
+        "text": [
+          "(noun) привет | приветствие\nЗдравствуйте"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "id": "equation",
+    "category": "Дополнительный: уравнение",
+    "query": "solve x^2 - 5x + 6 = 0",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:33.796748+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input interpretation",
+        "primary": false,
+        "text": [
+          "solve x^2 - 5 x + 6 = 0"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Results",
+        "primary": true,
+        "text": [
+          "x = 2",
+          "x = 3"
+        ]
+      },
+      {
+        "id": "SumOfRoots",
+        "title": "Sum of roots",
+        "primary": false,
+        "text": [
+          "5"
+        ]
+      },
+      {
+        "id": "ProductOfRoots",
+        "title": "Product of roots",
+        "primary": false,
+        "text": [
+          "6"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "id": "derivative",
+    "category": "Дополнительный: производная",
+    "query": "differentiate x^3 + 2x",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:35.629466+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Derivative",
+        "primary": true,
+        "text": [
+          "d/dx(x^3 + 2 x) = 3 x^2 + 2"
+        ]
+      },
+      {
+        "id": "GeometricFigure (ofBoundary)",
+        "title": "Geometric figure",
+        "primary": false,
+        "text": [
+          "parabola"
+        ]
+      },
+      {
+        "id": "AlternateForm",
+        "title": "Alternate form",
+        "primary": false,
+        "text": [
+          "1/3 (sqrt(6) - 3 i x) (sqrt(6) + 3 i x)"
+        ]
+      },
+      {
+        "id": "ComplexSolution",
+        "title": "Complex roots",
+        "primary": true,
+        "text": [
+          "x = -i sqrt(2/3)",
+          "x = i sqrt(2/3)"
+        ]
+      },
+      {
+        "id": "PolynomialDiscriminant",
+        "title": "Polynomial discriminant",
+        "primary": false,
+        "text": [
+          "Δ = -24"
+        ]
+      },
+      {
+        "id": "PropertiesAsARealFunction",
+        "title": "Properties as a real function",
+        "primary": false,
+        "text": [
+          "R (all real numbers)",
+          "{y element R : y>=2}",
+          "even"
+        ]
+      },
+      {
+        "id": "IndefiniteIntegral",
+        "title": "Indefinite integral",
+        "primary": true,
+        "text": [
+          "integral(2 + 3 x^2) dx = x^3 + 2 x + constant"
+        ]
+      },
+      {
+        "id": "GlobalMinimum",
+        "title": "Global minimum",
+        "primary": false,
+        "text": [
+          "min{3 x^2 + 2} = 2 at x = 0"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "id": "determinant",
+    "category": "Дополнительный: определитель",
+    "query": "det {{1,2},{3,4}}",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:37.357673+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input interpretation",
+        "primary": false,
+        "text": [
+          "left bracketing bar 1 | 2\n3 | 4 right bracketing bar"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Result",
+        "primary": true,
+        "text": [
+          "-2"
+        ]
+      },
+      {
+        "id": "NumberName",
+        "title": "Number name",
+        "primary": false,
+        "text": [
+          "negative two"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 14,
+    "id": "prime",
+    "category": "Дополнительный: разложение",
+    "query": "factor 360",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:38.842863+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input interpretation",
+        "primary": false,
+        "text": [
+          "factor | 360"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Result",
+        "primary": true,
+        "text": [
+          "2^3 × 3^2 × 5 (6 prime factors, 3 distinct)"
+        ]
+      },
+      {
+        "id": "Divisors",
+        "title": "Divisors",
+        "primary": false,
+        "text": [
+          "1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 15 | 18 | 20 | 24 | 30 | 36 | 40 | 45 | 60 | 72 | 90 | 120 | 180 | 360 (24 divisors)"
+        ]
+      }
+    ]
+  },
+  {
+    "number": 15,
+    "id": "units",
+    "category": "Дополнительный: единицы",
+    "query": "10 kilometers in meters",
+    "mode": "live",
+    "timestamp_utc": "2026-10-07T14:06:40.228317+00:00",
+    "status": "ok",
+    "message": "",
+    "pods": [
+      {
+        "id": "Input",
+        "title": "Input interpretation",
+        "primary": false,
+        "text": [
+          "convert 10 km (kilometers) to meters"
+        ]
+      },
+      {
+        "id": "Result",
+        "title": "Result",
+        "primary": true,
+        "text": [
+          "10000 meters"
+        ]
+      },
+      {
+        "id": "AdditionalConversion",
+        "title": "Additional conversions",
+        "primary": false,
+        "text": [
+          "6.214 miles",
+          "1 × 10^6 cm (centimeters)"
+        ]
+      },
+      {
+        "id": "ComparisonAsLength",
+        "title": "Comparison as length",
+        "primary": false,
+        "text": [
+          "≈ (0.4 to 3.1) × length of a single Formula One lap ( 3.186 to 25.8 km )"
+        ]
+      },
+      {
+        "id": "ComparisonAsHeight",
+        "title": "Comparisons as height",
+        "primary": false,
+        "text": [
+          "≈ ( 0.24 ≈ 1/4 ) × greatest height above the Earth from which a human has jumped (Alan Eustace in 2014) ( 135889.108 ft )",
+          "≈ 1.1 × height of Mount Everest ( 8850 m )",
+          "≈ 2.9 × height of Lego bricks a single brick can support without plastic failure ( ≈ 3.5 km )"
+        ]
+      },
+      {
+        "id": "ComparisonAsThickness",
+        "title": "Comparison as thickness",
+        "primary": false,
+        "text": [
+          "≈ thickness of the Earth's ozone layer ( ≈ 10 km )"
+        ]
+      },
+      {
+        "id": "ComparisonAsDepth",
+        "title": "Comparisons as depth",
+        "primary": false,
+        "text": [
+          "≈ 0.92 × greatest ocean depth ( 10924 m )",
+          "≈ 2.7 × mean depth of the Earth's oceans ( 3682 m )"
+        ]
+      },
+      {
+        "id": "ComparisonAsRadius",
+        "title": "Comparison as radius",
+        "primary": false,
+        "text": [
+          "≈ 3.4 × solar Schwarzschild radius ( 2953.250077 m )"
+        ]
+      },
+      {
+        "id": "ComparisonAsDiameter",
+        "title": "Comparison as diameter",
+        "primary": false,
+        "text": [
+          "≈ 1.2 × diameter of the Large Hadron Collider ( 0.3183 circumferences of the Large Hadron Collider )"
+        ]
+      },
+      {
+        "id": "ComparisonAsCircumference",
+        "title": "Comparison as circumference",
+        "primary": false,
+        "text": [
+          "≈ 0.37 × circumference of the Large Hadron Collider ( ≈ 27 km )"
+        ]
+      },
+      {
+        "id": "FrequencyBands:QuantityData",
+        "title": "Electromagnetic frequency range",
+        "primary": false,
+        "text": [
+          "VLF (very low frequency)"
+        ]
+      },
+      {
+        "id": "FrequencyAllocations:QuantityData",
+        "title": "Frequency allocation for United States (ITU region 2)",
+        "primary": false,
+        "text": [
+          "primary use | fixed | maritime mobile"
+        ]
+      },
+      {
+        "id": "Interpretation",
+        "title": "Interpretations",
+        "primary": false,
+        "text": [
+          "length",
+          "height",
+          "thickness",
+          "depth",
+          "radius",
+          "diameter",
+          "circumference"
+        ]
+      },
+      {
+        "id": "CorrespondingQuantity",
+        "title": "Corresponding quantities",
+        "primary": false,
+        "text": [
+          "Light travel time t in vacuum from t = x/c:\n | 33 μs (microseconds)",
+          "Light travel time t in an optical fiber t = 1.48x/c:\n | 49 μs (microseconds)",
+          "Sound travel time t from t = x/v:\n | 29 seconds\n | (assuming speed of sound ≈ 340 m/s)",
+          "Distance to horizon (ignoring topography and other obstructions) from this height:\n | 222 miles\n | 357.3 km (kilometers)\n | 357299 meters",
+          "Angular wavelength ƛ from ƛ = λ/(2π):\n | 1592 meters",
+          "Frequency ν of electromagnetic radiation in a vacuum from ν = c/λ:\n | 30 kHz (kilohertz)",
+          "Frequency ν of sound from ν = v/λ:\n | 0.034 Hz (hertz)\n | (assuming speed of sound ≈ 340 m/s)",
+          "Spectroscopic wavenumber ν^~ from ν^~ = 1/λ:\n | 1 × 10^-6 cm^(-1) (reciprocal centimeters)\n | 1 × 10^-6 wavenumbers",
+          "Wavenumber k from k = 2π/λ:\n | 6.283 × 10^-6 cm^(-1) (reciprocal centimeters)",
+          "Corresponding angle θ around the earth's equator from θ = s/a_ earth :\n | 1.6 mrad (milliradians)\n | 0.08983° (degrees)\n | 5.39' (arcminutes)",
+          "Wavelength λ from λ = 2πƛ:\n | 62832 meters",
+          "Frequency ν of a photon in a vacuum from ν = 2πc/ƛ:\n | 188.4 kHz (kilohertz)",
+          "Spectroscopic wavenumber ν^~ from ν^~ = 2π/ƛ:\n | 6.283 × 10^-4 m^(-1) (reciprocal meters)",
+          "Wavenumber k from k = 1/ƛ:\n | 1 × 10^-4 m^(-1) (reciprocal meters)",
+          "Optical power P from P = 1/f:\n | 1 × 10^-4 D (diopters)"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "provider": "OpenWeatherMap Current Weather Data",
+  "documentation": "https://openweathermap.org/current",
+  "url": "https://api.openweathermap.org/data/2.5/weather",
+  "parameters": {
+    "lat": 55.7961,
+    "lon": 49.1064,
+    "units": "metric",
+    "lang": "ru"
+  },
+  "retrieved_at_utc": "2026-10-23T08:54:16.995466+00:00"
+}

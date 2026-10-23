@@ -1,0 +1,113 @@
+Проверка Python:
+Python 3.14.3
+test_continue_after_error (test_lab.BatchTests.test_continue_after_error) ... ok
+test_demo_files (test_lab.BatchTests.test_demo_files) ... ok
+test_fifteen_queries (test_lab.BatchTests.test_fifteen_queries) ... ok
+test_secret_redacted (test_lab.BatchTests.test_secret_redacted) ... ok
+test_401_no_retry (test_lab.ClientTests.test_401_no_retry) ... ok
+test_429_retry (test_lab.ClientTests.test_429_retry) ... WARNING:root:HTTP 429; повтор 1/2
+ok
+test_503_retry (test_lab.ClientTests.test_503_retry) ... WARNING:root:HTTP 503; повтор 1/2
+ok
+test_https_json_request (test_lab.ClientTests.test_https_json_request) ... ok
+test_network_exhaustion_safe_message (test_lab.ClientTests.test_network_exhaustion_safe_message) ... WARNING:root:Сетевая ошибка; повтор 1/2
+WARNING:root:Сетевая ошибка; повтор 2/2
+ok
+test_non_json_body_kept (test_lab.ClientTests.test_non_json_body_kept) ... ok
+test_non_object_json (test_lab.ClientTests.test_non_object_json) ... ok
+test_retry_network (test_lab.ClientTests.test_retry_network) ... WARNING:root:Сетевая ошибка; повтор 1/2
+ok
+test_timeout (test_lab.ClientTests.test_timeout) ... ok
+test_bad_key (test_lab.ConfigTests.test_bad_key) ... ok
+test_bad_numeric_fields (test_lab.ConfigTests.test_bad_numeric_fields) ... ok
+test_invalid_json (test_lab.ConfigTests.test_invalid_json) ... ok
+test_missing_file (test_lab.ConfigTests.test_missing_file) ... ok
+test_non_object (test_lab.ConfigTests.test_non_object) ... ok
+test_valid (test_lab.ConfigTests.test_valid) ... ok
+test_api_error_object (test_lab.ProcessingTests.test_api_error_object) ... ok
+test_boolean_api_error (test_lab.ProcessingTests.test_boolean_api_error) ... ok
+test_empty_and_malformed_subpods (test_lab.ProcessingTests.test_empty_and_malformed_subpods) ... ok
+test_invalid_pods (test_lab.ProcessingTests.test_invalid_pods) ... ok
+test_missing_root (test_lab.ProcessingTests.test_missing_root) ... ok
+test_no_result (test_lab.ProcessingTests.test_no_result) ... ok
+test_ok_and_all_pods (test_lab.ProcessingTests.test_ok_and_all_pods) ... ok
+test_string_boolean (test_lab.ProcessingTests.test_string_boolean) ... ok
+test_success_without_text (test_lab.ProcessingTests.test_success_without_text) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.012s
+
+OK
+Проверка SWI-Prolog:
+SWI-Prolog version 9.2.9 for x86_64-linux
+% [1/31] weather:four_cities ........................ passed (0.017 sec)
+% [2/31] weather:ekaterinburg ....................... passed (0.000 sec)
+% [3/31] weather:temp_below_minus_10 ................ passed (0.000 sec)
+% [4/31] weather:temp_minus_10 ...................... passed (0.000 sec)
+% [5/31] weather:temp_zero .......................... passed (0.000 sec)
+% [6/31] weather:temp_ten ........................... passed (0.000 sec)
+% [7/31] weather:temp_twenty ........................ passed (0.000 sec)
+% [8/31] weather:wind_zero .......................... passed (0.000 sec)
+% [9/31] weather:wind_below_five .................... passed (0.000 sec)
+% [10/31] weather:wind_five ......................... passed (0.000 sec)
+% [11/31] weather:wind_ten .......................... passed (0.000 sec)
+% [12/31] weather:wind_above_ten .................... passed (0.000 sec)
+% [13/31] weather:negative_wind ..................... passed (0.000 sec)
+% [14/31] weather:beach ............................. passed (0.000 sec)
+% [15/31] weather:not_beach_at_twenty ............... passed (0.000 sec)
+% [16/31] weather:museum_lower ...................... passed (0.000 sec)
+% [17/31] weather:museum_upper ...................... passed (0.000 sec)
+% [18/31] weather:rain_below_range .................. passed (0.000 sec)
+% [19/31] weather:rain_above_range .................. passed (0.000 sec)
+% [20/31] weather:skiing ............................ passed (0.000 sec)
+% [21/31] weather:no_skiing_at_zero ................. passed (0.000 sec)
+% [22/31] weather:unknown_condition ................. passed (0.000 sec)
+% [23/31] weather:unknown_city ...................... passed (0.000 sec)
+% [24/31] weather:single_advice_per_city ............ passed (0.000 sec)
+% [25/31] weather:four_advice_parts ................. passed (0.000 sec)
+% [26/31] violations:three .......................... passed (0.000 sec)
+% [27/31] violations:two ............................ passed (0.000 sec)
+% [28/31] violations:zero ........................... passed (0.000 sec)
+% [29/31] violations:unknown ........................ passed (0.000 sec)
+% [30/31] violations:enumeration .................... passed (0.000 sec)
+% [31/31] violations:unique_ids ..................... passed (0.000 sec)
+test_401_no_key_leak (test_lab.APITests.test_401_no_key_leak) ... ok
+test_429_retried (test_lab.APITests.test_429_retried) ... ok
+test_current_fields (test_lab.APITests.test_current_fields) ... ok
+test_invalid_numeric (test_lab.APITests.test_invalid_numeric) ... ok
+test_missing_current_fields (test_lab.APITests.test_missing_current_fields) ... ok
+test_nasa_timezone_shift_and_fill (test_lab.APITests.test_nasa_timezone_shift_and_fill) ... ok
+test_non_json (test_lab.APITests.test_non_json) ... ok
+test_adapts_to_season (test_lab.FuzzyTests.test_adapts_to_season) ... /home/user/.local/lib/python3.14/site-packages/skfuzzy/control/controlsystem.py:682: DeprecationWarning: Passing more than 2 positional arguments to np.maximum and np.minimum is deprecated. If you meant to use the third argument as an output, use the `out` keyword argument instead. If you hoped to work with more than 2 inputs, combine them into a single array and get the extrema for the relevant axis.
+  np.maximum(output_mf, term_mfs[label], output_mf)
+ok
+test_city_rule (test_lab.FuzzyTests.test_city_rule) ... ok
+test_comfortable_case (test_lab.FuzzyTests.test_comfortable_case) ... ok
+test_constant_history_scale (test_lab.FuzzyTests.test_constant_history_scale) ... ok
+test_grid_complete (test_lab.FuzzyTests.test_grid_complete) ... ok
+test_guard_recommendation (test_lab.FuzzyTests.test_guard_recommendation) ... ok
+test_independent_centroid (test_lab.FuzzyTests.test_independent_centroid) ... ok
+test_input_not_clipped (test_lab.FuzzyTests.test_input_not_clipped) ... ok
+test_membership_ranges_and_no_gaps (test_lab.FuzzyTests.test_membership_ranges_and_no_gaps) ... ok
+test_memberships_trace (test_lab.FuzzyTests.test_memberships_trace) ... ok
+test_storm_lower (test_lab.FuzzyTests.test_storm_lower) ... ok
+test_all_bad_rejected (test_lab.StatisticsTests.test_all_bad_rejected) ... ok
+test_all_months (test_lab.StatisticsTests.test_all_months) ... ok
+test_array_lengths (test_lab.StatisticsTests.test_array_lengths) ... ok
+test_duplicate_hours (test_lab.StatisticsTests.test_duplicate_hours) ... ok
+test_impossible_humidity_excluded (test_lab.StatisticsTests.test_impossible_humidity_excluded) ... ok
+test_invalid_month (test_lab.StatisticsTests.test_invalid_month) ... ok
+test_missing_excluded (test_lab.StatisticsTests.test_missing_excluded) ... ok
+test_negative_std (test_lab.StatisticsTests.test_negative_std) ... ok
+test_sample_std (test_lab.StatisticsTests.test_sample_std) ... ok
+test_timezone (test_lab.StatisticsTests.test_timezone) ... ok
+test_two_sigma_boundary (test_lab.StatisticsTests.test_two_sigma_boundary) ... ok
+test_wrong_wind_units (test_lab.StatisticsTests.test_wrong_wind_units) ... ok
+test_zero_std (test_lab.StatisticsTests.test_zero_std) ... ok
+test_zscore (test_lab.StatisticsTests.test_zscore) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.335s
+
+OK
+Все 91 локальных тестов пройдены. Доступ к внешним API этим НЕ проверяется.

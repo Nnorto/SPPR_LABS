@@ -1,0 +1,16 @@
+РЕЖИМ: ДЕМО / СИНТЕТИЧЕСКИЕ ДАННЫЕ / БЕЗ API
+01. kinetic energy of 5kg object at 10m/s
+    [ok]
+    Synthetic input: kinetic energy of 5kg object at 10m/s
+    SYNTHETIC control value: 250 J [контроль: 5 * 10^2 / 2]
+02. body mass index 180cm 75kg
+    [ok]
+    Synthetic input: body mass index 180cm 75kg
+    SYNTHETIC control value: 23.148148... kg/m^2 [контроль: 75 / 1.8^2]
+03. solve x^2 - 5x + 6 = 0
+    [ok]
+    Synthetic input: solve x^2 - 5x + 6 = 0
+    SYNTHETIC control value: x = 2 or x = 3 [контроль: (x-2)(x-3)=0]
+
+Обработано: 3. С текстовым результатом: 3.
+Файлы: Lab_1_Wolfram/output/preview_...

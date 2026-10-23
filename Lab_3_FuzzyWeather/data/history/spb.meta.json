@@ -1,0 +1,16 @@
+{
+  "provider": "NASA POWER / MERRA-2",
+  "documentation": "https://power.larc.nasa.gov/docs/services/api/temporal/hourly/",
+  "normalized": true,
+  "raw_files": [
+    "history/nasa_raw/spb_2020.json",
+    "history/nasa_raw/spb_2021.json",
+    "history/nasa_raw/spb_2022.json",
+    "history/nasa_raw/spb_2023.json",
+    "history/nasa_raw/spb_2024.json",
+    "history/nasa_raw/spb_2025.json"
+  ],
+  "start_date": "2021-01-01",
+  "end_date": "2025-12-31",
+  "note": "Open-Meteo недоступен из среды подготовки: дневной лимит API."
+}

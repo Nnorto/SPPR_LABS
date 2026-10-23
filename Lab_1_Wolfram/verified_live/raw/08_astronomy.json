@@ -1,0 +1,254 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 7,
+    "datatypes": "Planet",
+    "parsetiming": 0.233,
+    "parsetimedout": false,
+    "id": "WhIzLZCz4XE=6:eJxTTMoPSmNkYGAoZgESHvk5KWlMIJ4ekHBOzEkuzUksSQ1ILCpOTXDOzytJzStJgAsjWC6JJYlpzCB9bEDCNa8ks6QyGMQMyEnMSy0JBpntCzQkjQFmk09mcQlEBwdIWVF+QWoRUA8fXA9cSBAo5AJUnZiXnOpWlJ/rmlhUkoFqEACO4jVP",
+    "kernelId": "365",
+    "processId": 710964,
+    "version": "2.6",
+    "inputstring": "distance to Mars",
+    "sbsallowed": false,
+    "sources": [
+      {
+        "url": "https://www6b3.wolframalpha.com/sources/PlanetDataSourceInformationNotes.html",
+        "text": "Planet data"
+      }
+    ],
+    "parentId": "80055860-1d76-4f8c-8bf1-655af727b8c7",
+    "requestId": "80055860-1d76-4f8c-8bf1-655af727b8c7",
+    "pods": [
+      {
+        "title": "Input interpretation",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "Mars | distance from Earth"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Identity",
+        "id": "Input",
+        "position": 1,
+        "expressiontypes": {
+          "name": "Grid"
+        }
+      },
+      {
+        "title": "Current result",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "PlanetData"
+            ],
+            "plaintext": "1.619 au (astronomical units)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Data",
+        "id": "Result",
+        "position": 10,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "History",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "PlanetData"
+            ],
+            "datasources": [
+              "AllensAstrophysicalQuantities",
+              "AstronomicalAlgorithms",
+              "PlanetaryTheoriesInRectangularAndSphericalVariables",
+              "SolarSystemDynamics"
+            ],
+            "plaintext": ""
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Data",
+        "id": "DistanceHistory:PlanetData",
+        "position": 100,
+        "expressiontypes": {
+          "name": "Default"
+        },
+        "states": [
+          {
+            "count": 5,
+            "value": "±1 year",
+            "delimiters": "",
+            "states": [
+              {
+                "name": "±3 months",
+                "input": "DistanceHistory:PlanetData__±3 months"
+              },
+              {
+                "name": "±6 months",
+                "input": "DistanceHistory:PlanetData__±6 months"
+              },
+              {
+                "name": "±1 year",
+                "input": "DistanceHistory:PlanetData__±1 year"
+              },
+              {
+                "name": "±5 years",
+                "input": "DistanceHistory:PlanetData__±5 years"
+              },
+              {
+                "name": "±10 years",
+                "input": "DistanceHistory:PlanetData__±10 years"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Unit conversions",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "2.423 × 10^8 km (kilometers)"
+          },
+          {
+            "title": "",
+            "plaintext": "2.423 × 10^11 meters"
+          },
+          {
+            "title": "",
+            "plaintext": "150.5 million miles"
+          }
+        ],
+        "numsubpods": 3,
+        "error": false,
+        "scanner": "Unit",
+        "id": "UnitConversion",
+        "position": 2200,
+        "expressiontypes": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          }
+        ]
+      },
+      {
+        "title": "Comparisons as distance",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": " ≈ ( 0.018 ≈ 1/55 ) × smallest distance from the Sun to the heliosheath ( 79 to 100 au )"
+          },
+          {
+            "title": "",
+            "plaintext": " ≈ 1.6 × mean Earth-Sun distance ( 1.0000010178 au )"
+          }
+        ],
+        "numsubpods": 2,
+        "error": false,
+        "scanner": "Unit",
+        "id": "ComparisonAsDistance",
+        "position": 2210.001,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Corresponding quantities",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "Light travel time t in vacuum from t = x/c:\n | 13 minutes"
+          },
+          {
+            "title": "",
+            "plaintext": "Light travel time t in an optical fiber t = 1.48x/c:\n | 20 minutes"
+          },
+          {
+            "title": "",
+            "plaintext": "Solar radiation pressure from P = L_☉/(c4πr^2):\n | 1.7 μPa (micropascals)\n | (assuming solar constant ≈ 1.36 kW/m^2)"
+          }
+        ],
+        "numsubpods": 3,
+        "error": false,
+        "scanner": "Unit",
+        "id": "CorrespondingQuantity",
+        "position": 2280,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Orbital properties",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "PlanetData"
+            ],
+            "datasources": [
+              "AllensAstrophysicalQuantities",
+              "AstronomicalAlgorithms",
+              "NationalSpaceScienceDataCenter",
+              "SolarSystemDynamics",
+              "PlanetaryTheoriesInRectangularAndSphericalVariables"
+            ],
+            "plaintext": "current distance from Earth | 1.619 au\n13.47 light minutes\naverage distance from Earth | 1.7 au\n14.1 light minutes\ncurrent distance from Sun | 1.566 au\n13.03 light minutes\napoapsis | 154.863553 million mi\n1.66599116 au\nperiapsis | 128.402967 million mi\n1.38133346 au\norbital period | 1.8808476 a",
+            "infos": {
+              "units": [
+                {
+                  "short": "a",
+                  "long": "Julian years"
+                },
+                {
+                  "short": "au",
+                  "long": "astronomical units"
+                },
+                {
+                  "short": "mi",
+                  "long": "miles"
+                }
+              ]
+            }
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Data",
+        "id": "BasicPlanetOrbitalProperties:PlanetData",
+        "position": 2400,
+        "expressiontypes": {
+          "name": "Grid"
+        },
+        "states": [
+          {
+            "name": "Show metric",
+            "input": "BasicPlanetOrbitalProperties:PlanetData__Show metric"
+          },
+          {
+            "name": "More",
+            "input": "BasicPlanetOrbitalProperties:PlanetData__More"
+          }
+        ]
+      }
+    ],
+    "timing": 1.787,
+    "timedout": "",
+    "timedoutpods": ""
+  }
+}

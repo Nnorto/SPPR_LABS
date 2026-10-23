@@ -1,0 +1,52 @@
+{
+  "number": 7,
+  "id": "time",
+  "category": "Временной",
+  "query": "current time in Kazan",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:23.575339+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input interpretation",
+      "primary": false,
+      "text": [
+        "current time in Kazan, Kazan', Russia"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Result",
+      "primary": true,
+      "text": [
+        "5:06:24 pm MSK | Wednesday, October 7, 2026"
+      ]
+    },
+    {
+      "id": "TimeOffsets",
+      "title": "Time offset from EDT",
+      "primary": false,
+      "text": [
+        "+7 hours"
+      ]
+    },
+    {
+      "id": "ClockImages",
+      "title": "Clocks",
+      "primary": false,
+      "text": [
+        "Moscow\n\n5:06:24 pm MSK\nWednesday, October 7 Arlington, Virginia\n\n10:06:24 am EDT\nWednesday, October 7"
+      ]
+    },
+    {
+      "id": "CurrentGMTTime",
+      "title": "Current Greenwich mean time",
+      "primary": false,
+      "text": [
+        "2:06:24 pm GMT | Wednesday, October 7, 2026"
+      ]
+    }
+  ]
+}

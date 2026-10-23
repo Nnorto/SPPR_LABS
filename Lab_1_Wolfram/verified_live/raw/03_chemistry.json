@@ -1,0 +1,133 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 5,
+    "datatypes": "Chemical",
+    "parsetiming": 0.54,
+    "parsetimedout": false,
+    "id": "RHQ1gbJw/yM=6:eJxTTMoPSmNkYGAoZgESHvk5KWlMIJ4ekHBOzEkuzUksSQ1ILCpOTXDOzytJzStJgAsjWC6JJYlpzCB9bEDCNa8ks6QymANkREZqbmZyYk4wD5ATXJqTVlqUmeyYnJmSxgCz0yezuASiF6QhoCi/ILUIqFsASTdckBMo6Jufk1jkm1hcjGoEAMonNr4=",
+    "kernelId": "406",
+    "processId": 734652,
+    "version": "2.6",
+    "inputstring": "molar mass of H2SO4",
+    "sbsallowed": false,
+    "sources": [
+      {
+        "url": "https://www6b3.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html",
+        "text": "Chemical data"
+      }
+    ],
+    "parentId": "4d795107-419e-4853-89ae-a45d6aac535a",
+    "requestId": "4d795107-419e-4853-89ae-a45d6aac535a",
+    "pods": [
+      {
+        "title": "Input interpretation",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "sulfuric acid | molar mass"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Identity",
+        "id": "Input",
+        "position": 1,
+        "expressiontypes": {
+          "name": "Grid"
+        }
+      },
+      {
+        "title": "Result",
+        "subpods": [
+          {
+            "title": "",
+            "microsources": [
+              "ChemicalData"
+            ],
+            "datasources": [
+              "PubChem"
+            ],
+            "plaintext": "98.07 g/mol (grams per mole)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Data",
+        "id": "Result",
+        "position": 100,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Unit conversion",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "0.09807 kg/mol (kilograms per mole)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Unit",
+        "id": "UnitConversion",
+        "position": 2200,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Comparisons as molar mass",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": " ≈ ( 0.14 ≈ 1/7 ) × molar mass of fullerene ( 720.642 g/mol )"
+          },
+          {
+            "title": "",
+            "plaintext": " ≈ 0.51 × molar mass of caffeine ( 194.191 g/mol )"
+          },
+          {
+            "title": "",
+            "plaintext": " ≈ 1.7 × molar mass of sodium chloride ( 58.443 g/mol )"
+          }
+        ],
+        "numsubpods": 3,
+        "error": false,
+        "scanner": "Unit",
+        "id": "ComparisonAsMolarMass",
+        "position": 2210.001,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Corresponding quantities",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "Mass of a molecule m from m = M/N_A:\n | 1.6 × 10^-22 grams\n | 1.6 × 10^-25 kg (kilograms)\n | 98 u (unified atomic mass units)\n | 98 Da (daltons)"
+          },
+          {
+            "title": "",
+            "plaintext": "Relative molecular mass M_r from M_r = M_u/M:\n | 98"
+          }
+        ],
+        "numsubpods": 2,
+        "error": false,
+        "scanner": "Unit",
+        "id": "CorrespondingQuantity",
+        "position": 2280,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      }
+    ],
+    "timing": 1.091,
+    "timedout": "",
+    "timedoutpods": ""
+  }
+}

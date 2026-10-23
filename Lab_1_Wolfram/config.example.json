@@ -1,0 +1,6 @@
+{
+  "appid": "PUT_YOUR_APPID_HERE",
+  "timeout_seconds": 30,
+  "retries": 2,
+  "delay_seconds": 1
+}

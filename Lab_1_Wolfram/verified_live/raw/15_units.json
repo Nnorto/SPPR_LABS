@@ -1,0 +1,402 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 14,
+    "datatypes": "",
+    "parsetiming": 0.20500000000000002,
+    "parsetimedout": false,
+    "id": "cmKrYvoUPGc=6:eJxTTMoPSmNkYGAoZgESHvk5KWlMIJ4ukHBOzEkuzUksSQ3NyywpTgCRzvm5ufl5wZW5Sfk5xQnO+XllqUUlYGmINj1kbQGJRcWpIEUlqXklCXDhBMecgozEwNLEvJLMkspMLqAWiAtUidEMtkybGNd5Z+bk56aWpBaR7TZwmPjl56WS6j51YtznC3YbAEkNggI=",
+    "kernelId": "366",
+    "processId": 714961,
+    "version": "2.6",
+    "inputstring": "10 kilometers in meters",
+    "sbsallowed": false,
+    "parentId": "e5e33196-3a03-4725-999d-668c8e0021e8",
+    "requestId": "e5e33196-3a03-4725-999d-668c8e0021e8",
+    "pods": [
+      {
+        "title": "Input interpretation",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "convert 10 km (kilometers) to meters"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Identity",
+        "id": "Input",
+        "position": 1,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Result",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "10000 meters"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Unit",
+        "id": "Result",
+        "position": 2.2,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Additional conversions",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "6.214 miles"
+          },
+          {
+            "title": "",
+            "plaintext": "1 × 10^6 cm (centimeters)"
+          }
+        ],
+        "numsubpods": 2,
+        "error": false,
+        "scanner": "Unit",
+        "id": "AdditionalConversion",
+        "position": 2200,
+        "expressiontypes": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          }
+        ],
+        "states": [
+          {
+            "name": "More digits",
+            "input": "AdditionalConversion__More digits"
+          },
+          {
+            "name": "Exact forms",
+            "input": "AdditionalConversion__Exact forms"
+          }
+        ]
+      },
+      {
+        "title": "Comparison as length",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": " ≈ (0.4 to 3.1) × length of a single Formula One lap ( 3.186 to 25.8 km )"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Unit",
+        "id": "ComparisonAsLength",
+        "position": 2210.001,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Comparisons as height",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": " ≈ ( 0.24 ≈ 1/4 ) × greatest height above the Earth from which a human has jumped (Alan Eustace in 2014) ( 135889.108 ft )"
+          },
+          {
+            "title": "",
+            "plaintext": " ≈ 1.1 × height of Mount Everest ( 8850 m )"
+          },
+          {
+            "title": "",
+            "plaintext": " ≈ 2.9 × height of Lego bricks a single brick can support without plastic failure ( ≈ 3.5 km )"
+          }
+        ],
+        "numsubpods": 3,
+        "error": false,
+        "scanner": "Unit",
+        "id": "ComparisonAsHeight",
+        "position": 2210.0020000000004,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Comparison as thickness",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": " ≈ thickness of the Earth's ozone layer ( ≈ 10 km )"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Unit",
+        "id": "ComparisonAsThickness",
+        "position": 2210.005000000001,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Comparisons as depth",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": " ≈ 0.92 × greatest ocean depth ( 10924 m )"
+          },
+          {
+            "title": "",
+            "plaintext": " ≈ 2.7 × mean depth of the Earth's oceans ( 3682 m )"
+          }
+        ],
+        "numsubpods": 2,
+        "error": false,
+        "scanner": "Unit",
+        "id": "ComparisonAsDepth",
+        "position": 2210.006000000001,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Comparison as radius",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": " ≈ 3.4 × solar Schwarzschild radius ( 2953.250077 m )"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Unit",
+        "id": "ComparisonAsRadius",
+        "position": 2210.0080000000016,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Comparison as diameter",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": " ≈ 1.2 × diameter of the Large Hadron Collider ( 0.3183 circumferences of the Large Hadron Collider )"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Unit",
+        "id": "ComparisonAsDiameter",
+        "position": 2210.009000000002,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Comparison as circumference",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": " ≈ 0.37 × circumference of the Large Hadron Collider ( ≈ 27 km )"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Unit",
+        "id": "ComparisonAsCircumference",
+        "position": 2210.010000000002,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Electromagnetic frequency range",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "VLF (very low frequency)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "UnitInformation",
+        "id": "FrequencyBands:QuantityData",
+        "position": 2225,
+        "expressiontypes": {
+          "name": "Grid"
+        }
+      },
+      {
+        "title": "Frequency allocation for United States (ITU region 2)",
+        "subpods": [
+          {
+            "title": "",
+            "datasources": [
+              "NationalTelecommunicationsAndInformationAdministration"
+            ],
+            "plaintext": "primary use | fixed | maritime mobile"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "UnitInformation",
+        "id": "FrequencyAllocations:QuantityData",
+        "position": 2225,
+        "expressiontypes": {
+          "name": "Grid"
+        }
+      },
+      {
+        "title": "Interpretations",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "length"
+          },
+          {
+            "title": "",
+            "plaintext": "height"
+          },
+          {
+            "title": "",
+            "plaintext": "thickness"
+          },
+          {
+            "title": "",
+            "plaintext": "depth"
+          },
+          {
+            "title": "",
+            "plaintext": "radius"
+          },
+          {
+            "title": "",
+            "plaintext": "diameter"
+          },
+          {
+            "title": "",
+            "plaintext": "circumference"
+          }
+        ],
+        "numsubpods": 7,
+        "error": false,
+        "scanner": "Unit",
+        "id": "Interpretation",
+        "position": 2260,
+        "expressiontypes": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          }
+        ],
+        "states": [
+          {
+            "name": "More",
+            "input": "Interpretation__More"
+          }
+        ]
+      },
+      {
+        "title": "Corresponding quantities",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "Light travel time t in vacuum from t = x/c:\n | 33 μs (microseconds)"
+          },
+          {
+            "title": "",
+            "plaintext": "Light travel time t in an optical fiber t = 1.48x/c:\n | 49 μs (microseconds)"
+          },
+          {
+            "title": "",
+            "plaintext": "Sound travel time t from t = x/v:\n | 29 seconds\n | (assuming speed of sound ≈ 340 m/s)"
+          },
+          {
+            "title": "",
+            "plaintext": "Distance to horizon (ignoring topography and other obstructions) from this height:\n | 222 miles\n | 357.3 km (kilometers)\n | 357299 meters"
+          },
+          {
+            "title": "",
+            "plaintext": "Angular wavelength ƛ from ƛ = λ/(2π):\n | 1592 meters"
+          },
+          {
+            "title": "",
+            "plaintext": "Frequency ν of electromagnetic radiation in a vacuum from ν = c/λ:\n | 30 kHz (kilohertz)"
+          },
+          {
+            "title": "",
+            "plaintext": "Frequency ν of sound from ν = v/λ:\n | 0.034 Hz (hertz)\n | (assuming speed of sound ≈ 340 m/s)"
+          },
+          {
+            "title": "",
+            "plaintext": "Spectroscopic wavenumber ν^~ from ν^~ = 1/λ:\n | 1 × 10^-6 cm^(-1) (reciprocal centimeters)\n | 1 × 10^-6 wavenumbers"
+          },
+          {
+            "title": "",
+            "plaintext": "Wavenumber k from k = 2π/λ:\n | 6.283 × 10^-6 cm^(-1) (reciprocal centimeters)"
+          },
+          {
+            "title": "",
+            "plaintext": "Corresponding angle θ around the earth's equator from θ = s/a_ earth :\n | 1.6 mrad (milliradians)\n | 0.08983° (degrees)\n | 5.39' (arcminutes)"
+          },
+          {
+            "title": "",
+            "plaintext": "Wavelength λ from λ = 2πƛ:\n | 62832 meters"
+          },
+          {
+            "title": "",
+            "plaintext": "Frequency ν of a photon in a vacuum from ν = 2πc/ƛ:\n | 188.4 kHz (kilohertz)"
+          },
+          {
+            "title": "",
+            "plaintext": "Spectroscopic wavenumber ν^~ from ν^~ = 2π/ƛ:\n | 6.283 × 10^-4 m^(-1) (reciprocal meters)"
+          },
+          {
+            "title": "",
+            "plaintext": "Wavenumber k from k = 1/ƛ:\n | 1 × 10^-4 m^(-1) (reciprocal meters)"
+          },
+          {
+            "title": "",
+            "plaintext": "Optical power P from P = 1/f:\n | 1 × 10^-4 D (diopters)"
+          }
+        ],
+        "numsubpods": 15,
+        "error": false,
+        "scanner": "Unit",
+        "id": "CorrespondingQuantity",
+        "position": 2280,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      }
+    ],
+    "timing": 1.995,
+    "timedout": "",
+    "timedoutpods": ""
+  }
+}

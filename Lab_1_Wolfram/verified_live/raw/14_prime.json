@@ -1,0 +1,97 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 3,
+    "datatypes": "Factor",
+    "parsetiming": 0.10400000000000001,
+    "parsetimedout": false,
+    "id": "GxH+Q6smpoY=6:eJxTTMoPSmNkYGAoZgESHvk5KWlMIJ4BkHBOzEkuzUksSQ1ILCpOTXDOzytJzStJgAsjWG6JySX5RZkZQIMg2kGGBZXmpAZzARkQ2ZDKgtRgDiA3uCQxLyWxKAUAN8si5w==",
+    "kernelId": "379",
+    "processId": 728975,
+    "version": "2.6",
+    "inputstring": "factor 360",
+    "sbsallowed": false,
+    "parentId": "74cfd734-30e2-47d4-809a-2efe2495ef26",
+    "requestId": "74cfd734-30e2-47d4-809a-2efe2495ef26",
+    "pods": [
+      {
+        "title": "Input interpretation",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "factor | 360"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Identity",
+        "id": "Input",
+        "position": 1,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Result",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "2^3 × 3^2 × 5 (6 prime factors, 3 distinct)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Factor",
+        "id": "Result",
+        "position": 99.9,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Divisors",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "1 | 2 | 3 | 4 | 5 | 6 | 8 | 9 | 10 | 12 | 15 | 18 | 20 | 24 | 30 | 36 | 40 | 45 | 60 | 72 | 90 | 120 | 180 | 360 (24 divisors)"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Factor",
+        "id": "Divisors",
+        "position": 100,
+        "expressiontypes": {
+          "name": "Grid"
+        }
+      }
+    ],
+    "assumptions": [
+      {
+        "type": "MultiClash",
+        "word": "",
+        "template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+        "count": 2,
+        "values": [
+          {
+            "name": "FactorWord",
+            "word": "factor",
+            "desc": " referring to a factorization computation",
+            "input": "%2AMC.factor%20360-_%2AFactorWord-"
+          },
+          {
+            "name": "Divisors",
+            "word": "factor 360",
+            "desc": "referring to divisors",
+            "input": "%2AMC.factor%20360-_%2ADivisors-"
+          }
+        ]
+      }
+    ],
+    "timing": 0.347,
+    "timedout": "",
+    "timedoutpods": ""
+  }
+}

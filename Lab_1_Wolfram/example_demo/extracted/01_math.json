@@ -1,0 +1,11 @@
+{
+  "number": 1,
+  "id": "math",
+  "category": "Математический",
+  "query": "integrate x^2 sin^3 x dx",
+  "mode": "demo",
+  "timestamp_utc": "2026-10-07T13:44:24.496975+00:00",
+  "status": "no_result",
+  "message": "Демо моделирует отсутствие ответа. Реальный запрос здесь не выполнялся.",
+  "pods": []
+}

@@ -1,0 +1,11 @@
+{
+  "number": 3,
+  "id": "chemistry",
+  "category": "Химический",
+  "query": "molar mass of H2SO4",
+  "mode": "demo",
+  "timestamp_utc": "2026-10-07T13:44:24.497550+00:00",
+  "status": "no_result",
+  "message": "Демо моделирует отсутствие ответа. Реальный запрос здесь не выполнялся.",
+  "pods": []
+}

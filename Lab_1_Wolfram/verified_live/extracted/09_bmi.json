@@ -1,0 +1,60 @@
+{
+  "number": 9,
+  "id": "bmi",
+  "category": "Индекс массы тела",
+  "query": "body mass index 180cm 75kg",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:28.267462+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input information",
+      "primary": false,
+      "text": [
+        "body mass index | \nheight | 180 cm (centimeters)\nbody weight | 75 kg (kilograms)"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Result",
+      "primary": true,
+      "text": [
+        "body mass index | 23.15"
+      ]
+    },
+    {
+      "id": "Equation",
+      "title": "Equation",
+      "primary": false,
+      "text": [
+        "BMI = W/H^2 | \nBMI | body mass index\nH | height\nW | body weight\n(based on Quetelet's formula)"
+      ]
+    },
+    {
+      "id": "InternationalWeightClassification",
+      "title": "International weight classification",
+      "primary": false,
+      "text": [
+        "normal range (18.5-25)"
+      ]
+    },
+    {
+      "id": "BMIPrime",
+      "title": "BMI prime",
+      "primary": false,
+      "text": [
+        "0.926"
+      ]
+    },
+    {
+      "id": "ComparisonToUSAPopulation",
+      "title": "Comparison to USA population",
+      "primary": false,
+      "text": [
+        "| 95% reference range | percentile rank | z-score | distribution\nheight | 4' 11\" to 6' 3\" | 85.2% | 1.1 | \nweight | (108 to 283) lb (pounds) | 44.5% | -0.27 | \nbody mass index | (19 to 44) | 22.1% | -0.78 |"
+      ]
+    }
+  ]
+}

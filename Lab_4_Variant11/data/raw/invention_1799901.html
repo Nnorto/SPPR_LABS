@@ -1,0 +1,2508 @@
+<html class=""><head>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&amp;subset=cyrillic,cyrillic-ext">
+    <link rel="shortcut icon" type="image/x-icon" href="/registers-web/statics/img/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="/registers-web/statics/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/registers-web/statics/css/template_styles.css">
+    <link rel="stylesheet" type="text/css" href="/registers-web/statics/css/mainmenu_top.css">
+    <link rel="stylesheet" type="text/css" href="/registers-web/statics/css/openres.css?v=1">
+    <link rel="stylesheet" type="text/css" href="/registers-web/statics/css/comment.css?v=1">
+
+    <link rel="stylesheet" type="text/css" href="/registers-web/statics/css/jquery-ui.css">
+    
+
+    <script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script type="text/javascript" src="/registers-web/statics/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/registers-web/statics/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/registers-web/statics/js/datepicker-ru.js"></script>
+    <script type="text/javascript" src="/registers-web/statics/js/jquery.mask.min.js"></script>
+
+    <script type="text/javascript" src="/registers-web/statics/js/validate/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/registers-web/statics/js/validate/additional-methods.min.js"></script>
+    <script type="text/javascript" src="/registers-web/statics/js/validate/messages_ru.js"></script>
+
+    <!-- customscrollbars -->
+    <link rel="stylesheet" type="text/css" href="/registers-web/statics/css/jquery.mCustomScrollbar.css">
+    <script type="text/javascript" src="/registers-web/statics/js/jquery.mCustomScrollbar.min.js"></script>
+
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" type="text/css" href="/registers-web/statics/css/jquery.fancybox.css" media="screen">
+    <script type="text/javascript" src="/registers-web/statics/js/jquery.fancybox.pack.js"></script>
+
+    <!-- FormStyler -->
+    <script type="text/javascript" src="/registers-web/statics/js/jquery.formstyler.min.js"></script>
+    <link rel="stylesheet" href="/registers-web/statics/css/jquery.formstyler.css">
+    <link rel="stylesheet" href="/registers-web/statics/css/jquery.formstyler.theme.css">
+
+    <script type="text/javascript" src="/registers-web/statics/js/openres.js"></script>
+    <script type="text/javascript" src="/registers-web/statics/js/vmenuModule.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/registers-web/statics/css/pagination.css">
+    <script type="text/javascript" src="/registers-web/statics/js/pagination.min.js"></script>
+
+    <title>Открытые реестры</title>
+<style type="text/css">.fancybox-margin{margin-right:0px;}</style></head>
+
+<body id="openres"><input type="text" hidden="" id="javaPageContext" value="/registers-web">
+
+
+<div id="header" class="container-fluid">
+    <div class="cont">
+        <div class="row">
+            <div class="col-md-3 logo">
+                <a href="/">
+                    <div>Федеральный институт<br>промышленной<br>собственности</div>
+                </a>
+            </div>
+            <div class="col-md-4 to-center">
+                <div class="globaliconline">
+                    <div class="containermobile">
+                        <a href="mailto:fips@rupto.ru">
+                            <div class="mailico hico"></div>
+                        </a>
+                        <a href="/sitemap.php">
+                            <div class="sitemapico hico"></div>
+                        </a>
+                    </div>
+                    
+                    <div class="separator"></div>
+                    
+                        
+                        
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="sr">
+                    <form action="/search/" class="search">
+                        <input placeholder="Поиск по сайту" name="q" type="text" value="" size="15" maxlength="50">
+                        <input type="submit" value=" ">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-1 to-center">
+                <a href="https://rospatent.gov.ru/ru" target="_blank">
+                    <div class="rightlogo">
+                        cайт роспатента
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+	#secondpages .megatitle {
+		margin-bottom: 5px;
+	}
+	.megatitle {
+		margin-bottom: 5px;
+	}
+	#secondpages .minititle {
+		margin-bottom: 0px;
+	}
+	#openres #mainpagecontent .globaltext .filter.diapazonfil {
+		margin-top: -10px;
+	}
+
+  #openres #mainpagecontent .globaltext .filter {
+		margin-bottom: 0px;
+	}
+	#secondpages {
+		margin-bottom: -5px;
+	}
+	#openres #mainpagecontent .historyblock {
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+	}
+	#openres #mainpagecontent .globaltext .filter.diapazonfil .fieldlist .left1 {
+		float: left;
+		margin-top: -18px;
+	}
+</style>
+
+<div class="container-fluid" id="crumbs">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="cont">
+                <a href="/"><span>Главная</span></a>
+                <span class="sep">/</span>
+                <span><a href="/elektronnye-servisy/">Поиск</a></span>
+                <span class="sep">/</span>
+                <span><a href="action?acName=treeBack">Открытые реестры</a></span>
+                <span class="sep">/</span>
+                <span><a href="action?acName=docList2tree"><nobr>Реестр изобретений Российской Федерации</nobr></a></span>
+                <span class="sep">/</span>
+                <span>Диапазон: 1799900 - 1799999</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="secondpages">
+    <div class="cont">
+        <div class="row">
+            <div class="col-md-9" id="mainpagecontent">
+                <div class="megatitle">
+                    <div>
+                        <div class="left"><h4>Реестр изобретений Российской Федерации</h4></div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                
+                
+
+
+
+
+
+
+
+
+
+
+<style>
+	#secondpages .minititle2 {
+		text-transform: none;	}
+</style>
+
+<div class="cont">
+	<div class="globaltext">
+		<div class="minititle ">
+			Диапазон: 1799900 - 1799999
+			&nbsp;
+		</div>
+
+		<div class="filter diapazonfil">
+			<div class="clear"></div>
+			<div class="fieldlist">
+				
+				<div class="left">
+					
+					<a href="action?acName=nextPage&amp;direction=1">Предыдущий диапазон</a>
+					
+						
+						<a href="action?acName=nextPage&amp;direction=-1">Следующий диапазон</a>
+						
+				</div>
+				
+				<div class="right">
+					<a href="action?acName=treeBack"><nobr>Вернуться к выбору реестра</nobr></a>
+					<a href="action?acName=docList2tree"><nobr>Вернуться к выбору диапазонов номеров</nobr></a>
+				</div>
+			</div>
+			
+		</div>
+		<div class="clear"></div>
+
+		<div class="bgtable diapazont">
+			<div class="table-responsive pub-table vtop notrhover">
+				<table class="table">
+				<tbody><tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799900&amp;TypeFile=html">1799900</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799900&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799925&amp;TypeFile=html">1799925</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799925&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799950&amp;TypeFile=html">1799950</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799950&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799975&amp;TypeFile=html">1799975</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799975&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799901&amp;TypeFile=html">1799901</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799901&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799926&amp;TypeFile=html">1799926</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799926&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799951&amp;TypeFile=html">1799951</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799951&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799976&amp;TypeFile=html">1799976</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799976&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799902&amp;TypeFile=html">1799902</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799902&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799927&amp;TypeFile=html">1799927</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799927&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799952&amp;TypeFile=html">1799952</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799952&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799977&amp;TypeFile=html">1799977</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799977&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799903&amp;TypeFile=html">1799903</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799903&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799928&amp;TypeFile=html">1799928</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799928&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799953&amp;TypeFile=html">1799953</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799953&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799978&amp;TypeFile=html">1799978</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799978&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799904&amp;TypeFile=html">1799904</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799904&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799929&amp;TypeFile=html">1799929</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799929&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799954&amp;TypeFile=html">1799954</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799954&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799979&amp;TypeFile=html">1799979</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799979&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799905&amp;TypeFile=html">1799905</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799905&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799930&amp;TypeFile=html">1799930</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799930&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799955&amp;TypeFile=html">1799955</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799955&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799980&amp;TypeFile=html">1799980</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799980&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799906&amp;TypeFile=html">1799906</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799906&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799931&amp;TypeFile=html">1799931</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799931&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799956&amp;TypeFile=html">1799956</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799956&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799981&amp;TypeFile=html">1799981</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799981&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799907&amp;TypeFile=html">1799907</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799907&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799932&amp;TypeFile=html">1799932</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799932&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799957&amp;TypeFile=html">1799957</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799957&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799982&amp;TypeFile=html">1799982</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799982&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799908&amp;TypeFile=html">1799908</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799908&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799933&amp;TypeFile=html">1799933</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799933&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799958&amp;TypeFile=html">1799958</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799958&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799983&amp;TypeFile=html">1799983</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799983&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799909&amp;TypeFile=html">1799909</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799909&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799934&amp;TypeFile=html">1799934</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799934&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799959&amp;TypeFile=html">1799959</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799959&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799984&amp;TypeFile=html">1799984</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799984&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799910&amp;TypeFile=html">1799910</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799910&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799935&amp;TypeFile=html">1799935</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799935&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799960&amp;TypeFile=html">1799960</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799960&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799985&amp;TypeFile=html">1799985</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799985&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799911&amp;TypeFile=html">1799911</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799911&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799936&amp;TypeFile=html">1799936</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799936&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799961&amp;TypeFile=html">1799961</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799961&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799986&amp;TypeFile=html">1799986</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799986&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799912&amp;TypeFile=html">1799912</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799912&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799937&amp;TypeFile=html">1799937</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799937&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799962&amp;TypeFile=html">1799962</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799962&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799987&amp;TypeFile=html">1799987</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799987&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799913&amp;TypeFile=html">1799913</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799913&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799938&amp;TypeFile=html">1799938</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799938&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799963&amp;TypeFile=html">1799963</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799963&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799988&amp;TypeFile=html">1799988</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799988&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799914&amp;TypeFile=html">1799914</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799914&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799939&amp;TypeFile=html">1799939</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799939&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799964&amp;TypeFile=html">1799964</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799964&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799989&amp;TypeFile=html">1799989</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799989&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799915&amp;TypeFile=html">1799915</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799915&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799940&amp;TypeFile=html">1799940</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799940&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799965&amp;TypeFile=html">1799965</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799965&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799990&amp;TypeFile=html">1799990</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799990&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799916&amp;TypeFile=html">1799916</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799916&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799941&amp;TypeFile=html">1799941</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799941&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799966&amp;TypeFile=html">1799966</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799966&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799991&amp;TypeFile=html">1799991</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799991&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799917&amp;TypeFile=html">1799917</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799917&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799942&amp;TypeFile=html">1799942</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799942&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799967&amp;TypeFile=html">1799967</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799967&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799992&amp;TypeFile=html">1799992</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799992&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799918&amp;TypeFile=html">1799918</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799918&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799943&amp;TypeFile=html">1799943</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799943&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799968&amp;TypeFile=html">1799968</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799968&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799993&amp;TypeFile=html">1799993</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799993&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799919&amp;TypeFile=html">1799919</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799919&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799944&amp;TypeFile=html">1799944</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799944&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799969&amp;TypeFile=html">1799969</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799969&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799994&amp;TypeFile=html">1799994</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799994&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799920&amp;TypeFile=html">1799920</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799920&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799945&amp;TypeFile=html">1799945</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799945&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799970&amp;TypeFile=html">1799970</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799970&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799995&amp;TypeFile=html">1799995</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799995&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799921&amp;TypeFile=html">1799921</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799921&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799946&amp;TypeFile=html">1799946</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799946&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799971&amp;TypeFile=html">1799971</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799971&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799996&amp;TypeFile=html">1799996</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799996&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799922&amp;TypeFile=html">1799922</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799922&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799947&amp;TypeFile=html">1799947</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799947&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799972&amp;TypeFile=html">1799972</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799972&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799997&amp;TypeFile=html">1799997</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799997&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799923&amp;TypeFile=html">1799923</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799923&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799948&amp;TypeFile=html">1799948</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799948&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799973&amp;TypeFile=html">1799973</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799973&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799998&amp;TypeFile=html">1799998</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799998&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				<tr>
+
+					
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799924&amp;TypeFile=html">1799924</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799924&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799949&amp;TypeFile=html">1799949</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799949&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799974&amp;TypeFile=html">1799974</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799974&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+					<td>
+
+						
+						<span class="dots q_black"><div class="dot"></div></span>
+						
+						<span class="dots q_black">
+					<a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799999&amp;TypeFile=html">1799999</a>
+						
+						<img border="0" src="/registers-web/statics/img/empty.gif" width="8" height="8" alt="Заявка подана в электронном виде" title="Заявка подана в электронном виде">
+				
+
+					<sup><a target="_blank" href="/registers-doc-view/fips_servlet?DB=RUPAT&amp;rn=1166&amp;DocNumber=1799999&amp;TypeFile=pdf">PDF
+					</a></sup>
+				
+					 </span>
+					
+				</td>
+				
+
+			</tr>
+				
+				
+				</tbody></table>
+			</div>
+		</div>
+		
+		
+		
+		<div id="legend" style="display: block">
+			
+
+
+
+
+
+
+
+  
+<div class="historyblock">
+	<div class="container-fluid">
+		<div class="row">
+			
+			<div class="col-md-2">
+				<span class="dots q_white"><div class="dot"></div>нет данных</span>
+			</div>
+			
+			<div class="col-md-2">
+				<span class="dots q_green"><div class="dot"></div>действует</span>
+			</div>
+			
+			<div class="col-md-2">
+				<span class="dots q_yellow"><div class="dot"></div>может прекратить свое действие</span>
+			</div>
+			
+			<div class="col-md-2">
+				<span class="dots q_red"><div class="dot"></div>прекратил действие, но может быть восстановлен</span>
+			</div>
+			
+			<div class="col-md-2">
+				<span class="dots q_black"><div class="dot"></div>прекратил действие</span>
+			</div>
+			
+		</div>
+	</div>
+</div>
+		</div>
+		<script type="text/javascript">
+		<!--
+		function showLegend() {
+			var div = document.getElementById("legend");
+			if (div.style.display == "block")
+				div.style.display = "none";
+			else
+				div.style.display = "block";
+		}
+		//-->
+		</script>
+		
+		<div class="clear"></div>
+		<div class="filter diapazonfil" style="background-color: white">
+			<div class="clear"></div>
+			<div class="fieldlist">
+				
+				<div class="left">
+					
+					<a href="action?acName=nextPage&amp;direction=1">Предыдущий диапазон</a>
+					
+					
+					<a href="action?acName=nextPage&amp;direction=-1">Следующий диапазон</a>
+					
+				</div>
+				
+				<div class="right">
+					<a href="action?acName=treeBack"><nobr>Вернуться к выбору реестра</nobr></a>
+					<a href="action?acName=docList2tree"><nobr>Вернуться к выбору диапазонов номеров</nobr></a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+
+
+
+            </div>
+            <!-- Sidebar -->
+            
+
+
+
+
+
+
+
+
+<style>
+	/*#sidebar .typicalsbblock ul li*/
+	#sidebar .typicalsbblock ul li li:before {
+		content: "";
+	}
+	 .li-disc {
+		 list-style: disc;
+		 list-style-position: inside;
+	 }
+</style>
+
+<div class="col-md-3" id="sidebar">
+    <div class="typicalsbblock">
+        <div class="title">
+            <a href="action?acName=treeBack">Открытые реестры</a>
+        </div>
+        
+            
+                
+                    
+                
+                
+                    
+                        
+                    
+                
+            
+        
+			<ul class="sidebar-menu">
+				<li><a href="action?acName=clickRegister&amp;regName=RUPAT">
+					Изобретения
+				</a>
+				
+					<ul class="sidebar-submenu">
+						<li class="li-disc">
+								<b>
+							<a href="action?acName=clickRegister&amp;regName=RUPAT">
+								Реестр изобретений
+							</a>
+								</b>
+						</li>
+						<li class="li-disc">
+							
+						<a href="action?acName=clickRegister&amp;regName=RUPATAP">
+							Реестр заявок на выдачу патента на изобретение
+						</a>
+						
+						</li>
+					</ul>
+				
+				</li>
+				<li><a href="action?acName=clickRegister&amp;regName=RUPM">
+					Полезные модели
+				</a>
+					
+				</li>
+				<li><a href="action?acName=clickRegister&amp;regName=RUDE">
+					Промышленные образцы
+				</a>
+					
+				</li>
+				<li><a href="action?acName=clickRegister&amp;regName=RUTM">
+					Товарные знаки
+				</a>
+					
+				</li>
+				<li><a href="action?acName=clickRegister&amp;regName=RUGP">
+					Географические указания и наименования места происхождения товаров
+				</a>
+					
+				</li>
+				<li><a href="action?acName=clickRegister&amp;regName=EVM">
+					Программы для ЭВМ, базы данных и топологии интегральных микросхем
+				</a>
+					
+
+				</li>
+				<li>
+					
+					<a href="action?acName=clickRegister&amp;regName=PRAVO">
+						Реестр заявлений о государственной регистрации распоряжения исключительным правом по договору и заявлений о государственной регистрации перехода права без договора
+					</a>
+					
+				</li>
+                <li>
+                    
+                    <a href="action?acName=clickRegister&amp;regName=VZ">
+                        Реестр возражений и заявлений, связанных с оспариванием и признанием недействительным предоставления правовой охраны объектам интеллектуальной собственности, подаваемым в Роспатент
+                    </a>
+                    
+                </li>
+				
+			</ul>
+			
+			
+
+		</div>
+    <div class="typicalsbblock links">
+			<div>
+				<a href="/publication-web/">
+				<span class="link l2">
+                <img src="/registers-web/statics/img/pub/list.svg" width="15" height="15" border="0">&nbsp;&nbsp;Система публикации
+            </span>
+				</a>
+			</div>
+			<div>
+				<a href="/elektronnye-servisy/informatsionno-poiskovaya-sistema/index.php?sphrase_id=184" target="_blank">
+            <span class="link l1">
+                <img src="/registers-web/statics/img/pub/search.svg" width="15" height="15" border="0">&nbsp;&nbsp;Информационно - поисковая система
+            </span>
+				</a>
+			</div>
+    </div>
+</div>
+
+<!-- active на пункт меню выдавал через js на верстке. Надо будет реализовать чтобы он выдавался правильно -->
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div id="footer" class="container-fluid">
+    <div class="cont">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="toptitle no-margin-top-mobile">
+                    Контакты:
+                </div>
+                <div class="text">
+                    Бережковская наб., д. 30, корп. 1, Москва, Г-59, ГСП-1, 119991, РФ<br>
+                    
+                    E-mail: <a href="mailto:fips@rupto.ru">fips@rupto.ru</a><br>
+                    Тел.: +7 (499) 240-6015, факс: +7 (495) 531-6318
+                    
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="toptitle">Время работы:</div>
+                <div class="text">
+                    <div class="row">
+                        <div class="col-md-6">
+                            Режим рабочего времени ФИПС:<br>Понедельник - Четверг: 9:30 – 18:15<br>Пятница: 9:30 – 17:00<br>Суббота, воскресенье, нерабочие и<br>праздничные дни – выходные дни.
+                        </div>
+                        <div class="col-md-6">
+                            
+                            Режим работы окон приема документов:<br>Понедельник – Четверг: 9:00 – 17:45<br>Пятница: 9:00 – 16:30<br>Без перерыва на обед
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="toptitle">Мы в соцсетях:</div>
+                <div class="text">
+                    <div class="soc">
+						<a href="https://vk.com/fips22" target="_blank" style="float: left">
+							<div class="ВКонтакте">
+								<img src="/upload/medialibrary/Img_Content/vk.png" width="20" height="20" alt="vk">
+							</div>
+						</a>
+						<a href="https://t.me/FIPS_official" target="_blank" style="float: left; margin-left: 7px;">
+							<div class="Telegram">
+								<img src="/upload/medialibrary/Img_Content/telegram.png" width="20" height="20" alt="telegram">
+							</div>
+						</a>
+						<a href="https://ok.ru/group/58726004949005/topics" target="_blank" style="float: left; margin-left: 7px;">
+							<div class="Telegram">
+								<img src="/upload/medialibrary/Img_Content/ok.png" width="20" height="20" alt="ok">
+							</div>
+						</a>
+						<a href="https://max.ru/id7730036073_biz" target="_blank" style="float: left; margin-left: 7px;">
+							<div class="Telegram">
+								<img src="/upload/medialibrary/Img_Content/max.png" width="20" height="20" alt="ok">
+							</div>
+						</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+        <div class="row copy-row">
+            <div class="col-md-2 no-on-mobile">
+                <div class="copy">© 1999 - 2026 ФИПС</div>
+            </div>
+            <div class="col-md-10">
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="/" class="root-item">
+                                Главная
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/news/" class="root-item">
+                                Новости
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/documents/" class="root-item">
+                                Документы
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/about/vakansii/index.php" class="root-item">
+                                Вакансии
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/glossariy/" class="root-item">
+                                Глоссарий
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/elektronnye-servisy/internet-resursy/index.php" class="root-item">
+                                Ссылки
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/faq/" class="root-item">
+                                Ответы на вопросы
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/about/obratnaya-svyaz/index.php" class="root-item">
+                                О сайте
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/sitemap.php" class="root-item">
+                                Карта сайта
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/contacts/kak-proekhat.php" class="root-item">
+                                Как проехать
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:fips@rupto.ru" class="root-item">
+                                Сообщить о ошибке
+                            </a>
+                        </li>
+                        
+                        
+                    </ul>
+                    <div class="menu-clear-left"></div>
+                </div>
+            </div>
+            <div class="col-md-2 no-on-pc">
+                <div class="copy">© 1999 - 2026 ФИПС</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(48036026, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/58951831" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></body></html>

@@ -1,0 +1,54 @@
+{
+  "number": 2,
+  "id": "fact",
+  "category": "Фактологический",
+  "query": "population of Russia 2024",
+  "mode": "live",
+  "timestamp_utc": "2026-10-07T14:06:10.157362+00:00",
+  "status": "ok",
+  "message": "",
+  "pods": [
+    {
+      "id": "Input",
+      "title": "Input interpretation",
+      "primary": false,
+      "text": [
+        "Russia | population | 2024"
+      ]
+    },
+    {
+      "id": "Result",
+      "title": "Result",
+      "primary": true,
+      "text": [
+        "145 million people (2023 projection) (world rank: 9th) (2024 estimate)"
+      ]
+    },
+    {
+      "id": "DemographicProperties:CountryData",
+      "title": "Demographics",
+      "primary": false,
+      "text": [
+        "population | 145 million people (2023 projection) (world rank: 9th) (2024 estimate)\npopulation density | 22.9 people/mi^2 (people per square mile) (world rank: 222nd) (2024 estimate)"
+      ]
+    },
+    {
+      "id": "LargestCities:CountryData",
+      "title": "Largest cities",
+      "primary": false,
+      "text": [
+        "city | population\nMoscow, Central | 13.01 million people\nSaint Petersburg, Admiralteysky | 5.602 million people\nNovosibirsk | 1.634 million people\nYekaterinburg | 1.344 million people\nNizhny Novgorod | 1.213 million people\n(2006, 2010, 2015, 2016, 2017, 2018, 2021, 2023, and 2024 estimates)"
+      ]
+    },
+    {
+      "id": "ComparisonAsPersonCount",
+      "title": "Comparisons",
+      "primary": false,
+      "text": [
+        "≈ ( 0.019 ≈ 1/54 ) × world population ( 7.795 billion people )",
+        "≈ 0.69 × current population of Brazil ( 209.3 million people )",
+        "≈ 1.4 × current population of Philippines ( 104.9 million people )"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://power.larc.nasa.gov/api/temporal/hourly/point",
+  "parameters": {
+    "latitude": 55.7961,
+    "longitude": 49.1064,
+    "parameters": "T2M,RH2M,WS10M",
+    "community": "RE",
+    "start": "20230101",
+    "end": "20231231",
+    "format": "JSON",
+    "time-standard": "UTC"
+  },
+  "documentation": "https://power.larc.nasa.gov/docs/services/api/temporal/hourly/",
+  "retrieved_at_utc": "2026-10-21T15:27:01.972692+00:00"
+}

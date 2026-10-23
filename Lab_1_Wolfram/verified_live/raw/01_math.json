@@ -1,0 +1,125 @@
+{
+  "queryresult": {
+    "success": true,
+    "error": false,
+    "numpods": 4,
+    "datatypes": "",
+    "parsetiming": 0.276,
+    "parsetimedout": false,
+    "id": "Mh0nRvJ+K/8=6:eJxTTMoPSmNkYGAoZgESHvk5KWlMIB4nkPDMK0lNL0osSYUIsQKJkMzc1GIENyC/PLWoGKS9IhMkiCYDMZgZSARn5kGVgXgQJgDLzRaP",
+    "kernelId": "356",
+    "processId": 700732,
+    "version": "2.6",
+    "inputstring": "integrate x^2 sin^3 x dx",
+    "sbsallowed": false,
+    "parentId": "d564e52b-f471-4904-8548-cb55b5703c58",
+    "requestId": "d564e52b-f471-4904-8548-cb55b5703c58",
+    "pods": [
+      {
+        "title": "Indefinite integral",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "integral x^2 sin^3(x) dx = 1/108 (-81 (x^2 - 2) cos(x) + (9 x^2 - 2) cos(3 x) - 6 x (sin(3 x) - 27 sin(x))) + constant"
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Integral",
+        "id": "IndefiniteIntegral",
+        "position": 10,
+        "primary": true,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Plots",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": ""
+          },
+          {
+            "title": "",
+            "plaintext": ""
+          }
+        ],
+        "numsubpods": 2,
+        "error": false,
+        "scanner": "Integral",
+        "id": "Plot",
+        "position": 100.5,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      },
+      {
+        "title": "Alternate forms of the integral",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "1/108 ((162 - 81 x^2) cos(x) + (9 x^2 - 2) cos(3 x) + 162 x sin(x) - 6 x sin(3 x)) + constant"
+          },
+          {
+            "title": "",
+            "plaintext": "1/108 (9 x^2 cos(3 x) - 81 (x^2 - 2) cos(x) + 162 x sin(x) - 6 x sin(3 x) - 2 cos(3 x)) + constant"
+          },
+          {
+            "title": "",
+            "plaintext": "(3/2 - (3 x^2)/4) cos(x) + (x^2/12 - 1/54) cos(3 x) + x ((3 sin(x))/2 - 1/18 sin(3 x)) + constant"
+          }
+        ],
+        "numsubpods": 3,
+        "error": false,
+        "scanner": "Integral",
+        "id": "AlternateFormOfTheIntegral",
+        "position": 450.36842105263156,
+        "expressiontypes": [
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          },
+          {
+            "name": "Default"
+          }
+        ],
+        "states": [
+          {
+            "name": "More",
+            "input": "AlternateFormOfTheIntegral__More"
+          }
+        ]
+      },
+      {
+        "title": "Series expansion of the integral at x = 0",
+        "subpods": [
+          {
+            "title": "",
+            "plaintext": "40/27 + x^6/6 - x^8/16 + O(x^9)\n(Taylor series)",
+            "infos": {
+              "links": {
+                "url": "http://mathworld.wolfram.com/Big-ONotation.html",
+                "text": "Big‐O notation"
+              }
+            }
+          }
+        ],
+        "numsubpods": 1,
+        "error": false,
+        "scanner": "Series",
+        "id": "SeriesExpansionOfTheIntegralAtx=0",
+        "position": 1610,
+        "expressiontypes": {
+          "name": "Default"
+        }
+      }
+    ],
+    "timing": 3.438,
+    "timedout": "Integral",
+    "timedoutpods": "",
+    "recalculate": "https://gateway.wolframalpha.com/calculate/recalc?id=NjphNGIyNWVlNy00NGM2LTQ1ZDAtODBmNi1jZDRmMzczZjM3MzI="
+  }
+}
